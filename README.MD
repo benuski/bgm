@@ -1,0 +1,7 @@
+The current array of genealogical file formats are old and based on enterprise needs. GEDCOM has been the standard for decades, but it is not a format that is easily human-readable and -editable. Data can also get encoded in ways that are not as easy for regular folks to recover if they are left with just the source files and not a working reader. 
+
+This format, initially called Bromley Genealogical Markdown, is designed for ease of use, easy textual display, and ability to move between a tabular view and individual files. The information contained in the front matter should be easily convertible between YAML and CSV, and the body material can come over in additional columns. It is initially for use in Obsidian and with the Dataview plugin, but should be appropriate for anything using Markdown, YAML, and CSV.
+
+The intended audience is hobbyist genealogists who primarily like displaying information in text, and the storage metaphor is that of index cards in a card file, such as a zettelkasten. Links, citations, formatting, etc. are provided by Markdown, and no default visual way to display information is supported. This is format is intended to store information. The intended audience is hobbyist genealogists who primarily like displaying information in textual formats.
+
+I hope to maintain general GEDCOM 7.0 compatibility and will attempt to document the crosswalk as I build out this format. Inspiration on fields, naming, and data field definitions comes from the GEDCOM project.
