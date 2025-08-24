@@ -24,6 +24,9 @@ people:
             state:
             postal:
 
+events:
+    event:
+
 citations:
     citation:
         - confidence:
