@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE database PUBLIC "-//Gramps//DTD Gramps XML 1.7.2//EN"
+"http://gramps-project.org/xml/1.7.2/grampsxml.dtd">
+<database xmlns="http://gramps-project.org/xml/1.7.2/">
+  <header>
+    <created date="2025-08-24" version="6.0.4"/>
+    <researcher>
+      <resname>Ben Bromley</resname>
+      <rescity>Mecanicsville</rescity>
+      <resstate>Virginia</resstate>
+      <rescountry>USA</rescountry>
+      <resemail>ben@amongotheritems.org</resemail>
+    </researcher>
+    <mediapath>/var/home/bsbrom/Pictures/Bromley-Stafford tree_2018-11-25.gpkg.media</mediapath>
+  </header>
+  <events>
+    <event handle="_e0822177b31f71fefeb694c316" change="1542813047" id="E0000">
+      <type>Birth</type>
+      <dateval val="1985-08-30"/>
+      <place hlink="_e0823423db94321ceed023648f0"/>
+      <citationref hlink="_e082327b97f7ad0a2ada53c6181"/>
+    </event>
+    <event handle="_e0822ab656d6111ea23840c010" change="1542821257" id="E0001">
+      <type>Residence</type>
+      <dateval val="2015-04-10"/>
+      <place hlink="_e0822aa88ddbe6275ca1327ff9"/>
+    </event>
+    <event handle="_e0822dfa5c07dbb53ecd4e4445b" change="1542821234" id="E0002">
+      <type>Residence</type>
+      <dateval val="1989"/>
+      <place hlink="_e0822d8fe83645bed293a91e036"/>
+    </event>
+    <event handle="_e08247ef1fd5117f878a9e6c76e" change="1542813576" id="E0003">
+      <type>Birth</type>
+      <dateval val="1956-01-17"/>
+      <place hlink="_e08247e780155f64e1625bf383"/>
+    </event>
+    <event handle="_e0824bc538b74ea509cc30ed724" change="1542813884" id="E0004">
+      <type>Birth</type>
+      <dateval val="1956-06-23"/>
+      <place hlink="_e0824bbce353a6709d231dbc5fb"/>
+    </event>
+    <event handle="_e082517cdd255980a6d8a23c99d" change="1542814535" id="E0005">
+      <type>Birth</type>
+      <dateval val="1986-02-08"/>
+      <place hlink="_e08251753864f2f64b535ef16cc"/>
+    </event>
+    <event handle="_e082656b0cc5c7ea95672cfd0f9" change="1542821297" id="E0006">
+      <type>Residence</type>
+      <dateval val="1987"/>
+      <place hlink="_e082652b0b0712d7f5c34d764fa"/>
+    </event>
+    <event handle="_e082674de8d5824c4d971e81d65" change="1542821302" id="E0007">
+      <type>Residence</type>
+      <dateval val="1996"/>
+      <place hlink="_e08267469941d8cc73338935fba"/>
+    </event>
+    <event handle="_e08268daf207164c1f6476def0e" change="1542821267" id="E0008">
+      <type>Residence</type>
+      <dateval val="2010-08-20"/>
+      <place hlink="_e08268d27b81cf85890b869295d"/>
+    </event>
+    <event handle="_e0826a69b256e6cda0d076d1957" change="1542821278" id="E0009">
+      <type>Residence</type>
+      <dateval val="2013-05"/>
+      <place hlink="_e0826a627fa60af6f2d8cc95e0"/>
+    </event>
+    <event handle="_e08290f222333f7f2ea257d2512" change="1542821242" id="E0010">
+      <type>Residence</type>
+      <dateval val="1984"/>
+      <place hlink="_e082901002a441882f1b48c5eb2"/>
+    </event>
+    <event handle="_e0829d4674f5cd4a9a79f7d003e" change="1542822431" id="E0011">
+      <type>Residence</type>
+      <dateval val="1982" type="about"/>
+      <place hlink="_e08299566cb2bb013d460361a3b"/>
+    </event>
+    <event handle="_e082df7623536541c889ef355b8" change="1542977409" id="E0012">
+      <type>Birth</type>
+      <dateval val="1925-05-07"/>
+      <place hlink="_e082dc3ea64545bb2c6ace2a6c7"/>
+      <citationref hlink="_e082df6a75026c13e4e5a43a75a"/>
+      <citationref hlink="_e085638492d74cb86ce2be4a9d9"/>
+    </event>
+    <event handle="_e082e6fc7f62a2078af186f87fc" change="1542977415" id="E0013">
+      <type>Death</type>
+      <dateval val="1983-03-07"/>
+      <place hlink="_e082e6f947f2fda9a19154bcb7c"/>
+      <citationref hlink="_e082eb8c82f6f7db35973db569c"/>
+      <citationref hlink="_e085638492d74cb86ce2be4a9d9"/>
+    </event>
+    <event handle="_e0832c2437c7035a327ea594c78" change="1542913831" id="E0014">
+      <type>Marriage</type>
+      <dateval val="1950-02-18"/>
+      <place hlink="_e0832c1a7a6348c04bfed199dab"/>
+      <citationref hlink="_e0832edefa94163d7cff237ea3b"/>
+    </event>
+    <event handle="_e083395a12f118b3250ac3ddcda" change="1542896930" id="E0015">
+      <type>Military Service</type>
+      <datespan start="1950-07-01" stop="1952-06-29"/>
+      <citationref hlink="_e085638492d74cb86ce2be4a9d9"/>
+    </event>
+    <event handle="_e085696add49e2605755f12570" change="1542913621" id="E0016">
+      <type>Education</type>
+      <datespan start="1939" stop="1943"/>
+      <place hlink="_e082dc3ea64545bb2c6ace2a6c7"/>
+      <description>Kokomo High School</description>
+      <citationref hlink="_e0856b13b06777b33a91123cebb"/>
+    </event>
+    <event handle="_e0856e3ca077200c008dcbdc7d6" change="1542898029" id="E0017">
+      <type>Birth</type>
+      <dateval val="1988-04-19"/>
+      <place hlink="_e08221520122e1dcd9b71d6dbd8"/>
+    </event>
+    <event handle="_e0857a023441a6b8715ed4d7d3c" change="1542908876" id="E0018">
+      <type>Education</type>
+      <datespan start="1945" stop="1949"/>
+      <place hlink="_e08299504546bc13aa5fe692dfd"/>
+      <description>Indiana University School of Medicine</description>
+      <citationref hlink="_e08579fd28d2796cae0c14a0e5e"/>
+      <citationref hlink="_e08598d2073fd559d9abd26647"/>
+    </event>
+    <event handle="_e0857b95cdd7ea03db69b7eb342" change="1542899517" id="E0019">
+      <type>Occupation</type>
+      <datespan start="1949-07" stop="1950-06"/>
+      <place hlink="_e08247e780155f64e1625bf383"/>
+      <description>Intern at Henry Ford Hospital</description>
+      <citationref hlink="_e08579fd28d2796cae0c14a0e5e"/>
+    </event>
+    <event handle="_e0857ec4b2945beb079bd445a0e" change="1542913853" id="E0020">
+      <type>Residence</type>
+      <dateval val="1958" type="about"/>
+      <place hlink="_e0857ebfc8d1fe87df6682e9216"/>
+      <citationref hlink="_e08590089e33dc4229bcec20efb"/>
+    </event>
+    <event handle="_e086061312e41d1a11ddc4d7f91" change="1542913950" id="E0021">
+      <type>Residence</type>
+      <dateval val="1986" type="before"/>
+      <place hlink="_e082e6f947f2fda9a19154bcb7c"/>
+    </event>
+    <event handle="_e086074430b1a1503c8473d8238" change="1542914075" id="E0022">
+      <type>Residence</type>
+      <datespan start="1986" stop="2007"/>
+      <place hlink="_e086073881c2d9b53ab08d21f01"/>
+    </event>
+    <event handle="_e08864f997726f394858ac509e4" change="1542977589" id="E0023">
+      <type>Birth</type>
+      <place hlink="_e08221520122e1dcd9b71d6dbd8"/>
+      <citationref hlink="_e082df6a75026c13e4e5a43a75a"/>
+    </event>
+    <event handle="_e08868bb5f6530f939c13985e8d" change="1542988296" id="E0024">
+      <type>Residence</type>
+      <datespan start="1925" stop="1956"/>
+      <place hlink="_e0886892679477e58d6d1cd6308"/>
+    </event>
+    <event handle="_e08897ef97b6dbd71f3b16dd4c3" change="1542982932" id="E0025">
+      <type>Birth</type>
+      <dateval val="1887-09-10"/>
+      <place hlink="_e0889111ea0433ee111655b0276"/>
+      <citationref hlink="_e08897eab516034503b10c09445"/>
+    </event>
+    <event handle="_e0889cfccf525aea738c9de97bb" change="1543070273" id="E0026">
+      <type>Occupation</type>
+      <daterange start="1921" stop="1941"/>
+      <place hlink="_e082dc3ea64545bb2c6ace2a6c7"/>
+      <description>Foreman, Malleable Iron Works</description>
+      <citationref hlink="_e08897eab516034503b10c09445"/>
+    </event>
+    <event handle="_e088a162a4f2337ce90a7b0e8e1" change="1543070796" id="E0027">
+      <type>Occupation</type>
+      <daterange start="1941" stop="1956"/>
+      <place hlink="_e082dc3ea64545bb2c6ace2a6c7"/>
+      <description>Foreman, Hoosier Iron Works</description>
+      <noteref hlink="_e088a19a46f52debb91bab59116"/>
+      <citationref hlink="_e08897eab516034503b10c09445"/>
+      <citationref hlink="_e08bddd6efe4b62adbf32fecf33"/>
+    </event>
+    <event handle="_e088cd5eda9762a663871937445" change="1543069893" id="E0028">
+      <type>Residence</type>
+      <dateval val="1917-06-05"/>
+      <place hlink="_e088cd5bd907b958eea2a38bdd1"/>
+      <citationref hlink="_e08bd53ae085bc53a27b108184"/>
+    </event>
+    <event handle="_e08bd109eb6469fff259a2aa054" change="1543069932" id="E0029">
+      <type>Occupation</type>
+      <dateval val="1917-06-05"/>
+      <place hlink="_e08bd0fe094131329a43606cf22"/>
+      <description>Molder</description>
+      <citationref hlink="_e08bd53ae085bc53a27b108184"/>
+    </event>
+    <event handle="_e08be4b2bd034a4926cdd3883f8" change="1543072349" id="E0030">
+      <type>Marriage</type>
+      <dateval val="1909-12-28"/>
+      <place hlink="_e08bec1d1d55ad23b1eeb829faf"/>
+      <noteref hlink="_e08be3d2efd23604dad583b763e"/>
+      <citationref hlink="_e08be499b6a64af7edf7a6e691d"/>
+      <citationref hlink="_e08bec1574061c09c472314ef21"/>
+    </event>
+    <event handle="_e08bfc5db903cc1da769a3f228d" change="1543161460" id="E0031">
+      <type>Death</type>
+      <dateval val="1965-09-13"/>
+      <noteref hlink="_e08bfc15d6115067ee94c53674a"/>
+      <citationref hlink="_e08897eab516034503b10c09445"/>
+    </event>
+    <event handle="_e08f095cd3e491d44422c2a6f0a" change="1543156573" id="E0032">
+      <type>Death</type>
+      <dateval val="1996-07-25"/>
+      <place hlink="_e08f094f38274539bfc11322e9a"/>
+      <citationref hlink="_e08f0fe49381a600aa57cd6404e"/>
+    </event>
+    <event handle="_e08f1d4fcc1a4cfbf1602bf59a" change="1543157979" id="E0033">
+      <type>Residence</type>
+      <dateval val="1996"/>
+      <place hlink="_e08299504546bc13aa5fe692dfd"/>
+      <citationref hlink="_e08f0fe49381a600aa57cd6404e"/>
+    </event>
+    <event handle="_e08fc3f9472306630f40fff91ef" change="1543175693" id="E0034">
+      <type>Religion</type>
+      <dateval val="1934-12-23"/>
+      <place hlink="_e082dc3ea64545bb2c6ace2a6c7"/>
+      <description>First Baptist Church of Kokomo</description>
+      <citationref hlink="_e08fc638bce5853e4fc6f626a7c"/>
+    </event>
+    <event handle="_e08fc6773d51c0726937fdce8a8" change="1543175731" id="E0035">
+      <type>Death</type>
+      <dateval val="1957-10-24"/>
+      <citationref hlink="_e08fc638bce5853e4fc6f626a7c"/>
+    </event>
+  </events>
+  <people home="_e0821f9897b2d8ace05fc7af2d5">
+    <person handle="_e0821f9897b2d8ace05fc7af2d5" change="1542898042" id="I0000">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Benjamin Stewart</first>
+        <surname>Bromley</surname>
+      </name>
+      <eventref hlink="_e0822177b31f71fefeb694c316" role="Primary"/>
+      <eventref hlink="_e0822ab656d6111ea23840c010" role="Primary"/>
+      <eventref hlink="_e0822dfa5c07dbb53ecd4e4445b" role="Primary"/>
+      <eventref hlink="_e08268daf207164c1f6476def0e" role="Primary"/>
+      <eventref hlink="_e0826a69b256e6cda0d076d1957" role="Primary"/>
+      <address>
+        <dateval val="2015-04-10"/>
+        <street>7092 Spicewood Drive</street>
+        <city>Mechanicsville</city>
+        <state>VA</state>
+        <postal>23111</postal>
+      </address>
+      <childof hlink="_e082466245266fc5ca972fc6081"/>
+      <parentin hlink="_e0824df0f4b1a5dd2a0688720b8"/>
+    </person>
+    <person handle="_e0824671cc22baeca8cffe3676d" change="1543105329" id="I0001">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Joel Jay</first>
+        <surname>Bromley</surname>
+      </name>
+      <eventref hlink="_e08247ef1fd5117f878a9e6c76e" role="Primary"/>
+      <eventref hlink="_e0822dfa5c07dbb53ecd4e4445b" role="Primary"/>
+      <eventref hlink="_e08290f222333f7f2ea257d2512" role="Primary"/>
+      <eventref hlink="_e0829d4674f5cd4a9a79f7d003e" role="Primary"/>
+      <objref hlink="_e08281896714c0c669602e3fe5c"/>
+      <childof hlink="_e082d61922b70c2e73c48e72f22"/>
+      <parentin hlink="_e082466245266fc5ca972fc6081"/>
+    </person>
+    <person handle="_e08248f8ba01551cb258afbe697" change="1543163754" id="I0002">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Roberta Sue</first>
+        <surname>Anderson</surname>
+        <nick>Bobbi</nick>
+      </name>
+      <eventref hlink="_e0824bc538b74ea509cc30ed724" role="Primary"/>
+      <eventref hlink="_e0822dfa5c07dbb53ecd4e4445b" role="Primary"/>
+      <eventref hlink="_e08290f222333f7f2ea257d2512" role="Primary"/>
+      <childof hlink="_e08f542f4b434fc6347a67867cf"/>
+      <parentin hlink="_e082466245266fc5ca972fc6081"/>
+    </person>
+    <person handle="_e0824e10e2835e9416556389170" change="1542817149" id="I0003">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Christiana Marie</first>
+        <surname>Stafford</surname>
+        <nick>Christi</nick>
+      </name>
+      <eventref hlink="_e082517cdd255980a6d8a23c99d" role="Primary"/>
+      <eventref hlink="_e082656b0cc5c7ea95672cfd0f9" role="Primary"/>
+      <eventref hlink="_e082674de8d5824c4d971e81d65" role="Primary"/>
+      <eventref hlink="_e08268daf207164c1f6476def0e" role="Primary"/>
+      <eventref hlink="_e0826a69b256e6cda0d076d1957" role="Primary"/>
+      <eventref hlink="_e0822ab656d6111ea23840c010" role="Primary"/>
+      <parentin hlink="_e0824df0f4b1a5dd2a0688720b8"/>
+    </person>
+    <person handle="_e082d62b8d722369b0841103784" change="1543105269" id="I0004">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Luman William</first>
+        <surname>Bromley</surname>
+      </name>
+      <eventref hlink="_e082df7623536541c889ef355b8" role="Primary"/>
+      <eventref hlink="_e082e6fc7f62a2078af186f87fc" role="Primary"/>
+      <eventref hlink="_e0832c2437c7035a327ea594c78" role="Primary"/>
+      <eventref hlink="_e083395a12f118b3250ac3ddcda" role="Primary"/>
+      <eventref hlink="_e085696add49e2605755f12570" role="Primary"/>
+      <eventref hlink="_e0857a023441a6b8715ed4d7d3c" role="Primary"/>
+      <eventref hlink="_e0857b95cdd7ea03db69b7eb342" role="Primary"/>
+      <eventref hlink="_e0857ec4b2945beb079bd445a0e" role="Primary"/>
+      <objref hlink="_e082d85842e6736467d84982481"/>
+      <childof hlink="_e08861ab7366966e74a462aed6a"/>
+      <parentin hlink="_e082d61922b70c2e73c48e72f22"/>
+    </person>
+    <person handle="_e082d6dd7d850d93cca8cbb8635" change="1543159221" id="I0005">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Beth Maxine</first>
+        <surname>Warren</surname>
+      </name>
+      <eventref hlink="_e0832c2437c7035a327ea594c78" role="Primary"/>
+      <eventref hlink="_e0857ec4b2945beb079bd445a0e" role="Primary"/>
+      <eventref hlink="_e086061312e41d1a11ddc4d7f91" role="Primary"/>
+      <eventref hlink="_e086074430b1a1503c8473d8238" role="Primary"/>
+      <childof hlink="_e08d5ff0c7e7f31847314ee6732"/>
+      <parentin hlink="_e082d61922b70c2e73c48e72f22"/>
+    </person>
+    <person handle="_e0856df738e5bdeb64cab7b099" change="1542898042" id="I0006">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Sarah Elizabeth</first>
+        <surname>Bromley</surname>
+      </name>
+      <eventref hlink="_e0856e3ca077200c008dcbdc7d6" role="Primary"/>
+      <childof hlink="_e082466245266fc5ca972fc6081"/>
+    </person>
+    <person handle="_e08861b482631441e9ff171408c" change="1543175460" id="I0007">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Jay Myron</first>
+        <surname>Bromley</surname>
+      </name>
+      <name alt="1" type="Also Known As">
+        <first>Myron</first>
+        <surname>Bromley</surname>
+      </name>
+      <eventref hlink="_e08868bb5f6530f939c13985e8d" role="Primary"/>
+      <eventref hlink="_e08897ef97b6dbd71f3b16dd4c3" role="Primary"/>
+      <eventref hlink="_e0889cfccf525aea738c9de97bb" role="Primary"/>
+      <eventref hlink="_e088a162a4f2337ce90a7b0e8e1" role="Primary"/>
+      <eventref hlink="_e088cd5eda9762a663871937445" role="Primary"/>
+      <eventref hlink="_e08bd109eb6469fff259a2aa054" role="Primary"/>
+      <eventref hlink="_e08be4b2bd034a4926cdd3883f8" role="Primary"/>
+      <eventref hlink="_e08bfc5db903cc1da769a3f228d" role="Primary"/>
+      <eventref hlink="_e08fc3f9472306630f40fff91ef" role="Primary"/>
+      <childof hlink="_e08bfa6b8e447a22075fb0bb36d"/>
+      <parentin hlink="_e08861ab7366966e74a462aed6a"/>
+      <citationref hlink="_e082df6a75026c13e4e5a43a75a"/>
+      <citationref hlink="_e082eb8c82f6f7db35973db569c"/>
+    </person>
+    <person handle="_e08863155963f654454cfa74700" change="1543175734" id="I0008">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Susanna</first>
+        <surname>Kidd</surname>
+      </name>
+      <eventref hlink="_e08864f997726f394858ac509e4" role="Primary"/>
+      <eventref hlink="_e08868bb5f6530f939c13985e8d" role="Primary"/>
+      <eventref hlink="_e08be4b2bd034a4926cdd3883f8" role="Primary"/>
+      <eventref hlink="_e08fc3f9472306630f40fff91ef" role="Primary"/>
+      <eventref hlink="_e08fc6773d51c0726937fdce8a8" role="Primary"/>
+      <childof hlink="_e08bfb167276f0f255e9ac137cd"/>
+      <parentin hlink="_e08861ab7366966e74a462aed6a"/>
+      <citationref hlink="_e082df6a75026c13e4e5a43a75a"/>
+      <citationref hlink="_e082eb8c82f6f7db35973db569c"/>
+    </person>
+    <person handle="_e08bfa753e7663f699e11e57070" change="1543073857" id="I0009">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Alexander Thomas</first>
+        <surname>Bromley</surname>
+      </name>
+      <name alt="1" type="Birth Name">
+        <first>Thomas</first>
+        <surname prefix="Bromley"></surname>
+      </name>
+      <parentin hlink="_e08bfa6b8e447a22075fb0bb36d"/>
+    </person>
+    <person handle="_e08bfaed060686b856174e28422" change="1543073857" id="I0010">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Lillie</first>
+        <surname>Smith</surname>
+      </name>
+      <parentin hlink="_e08bfa6b8e447a22075fb0bb36d"/>
+    </person>
+    <person handle="_e08bfb1b118241f777f5706d1e5" change="1543073885" id="I0011">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>William G.</first>
+        <surname>Kidd</surname>
+      </name>
+      <parentin hlink="_e08bfb167276f0f255e9ac137cd"/>
+    </person>
+    <person handle="_e08bfb2fd3726cc71d69e9d08a9" change="1543073885" id="I0012">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Susanna</first>
+        <surname>Williamson</surname>
+      </name>
+      <parentin hlink="_e08bfb167276f0f255e9ac137cd"/>
+    </person>
+    <person handle="_e08d26183cc4c2332614377fd3f" change="1543160258" id="I0013">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Lee Myron</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e08861ab7366966e74a462aed6a"/>
+      <parentin hlink="_e08f32c1fd353ea1207a7c3aa97"/>
+    </person>
+    <person handle="_e08d263f391d7ca40d1ee39924" change="1543156590" id="I0014">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Jay Thomas</first>
+        <surname>Bromley</surname>
+      </name>
+      <eventref hlink="_e08f095cd3e491d44422c2a6f0a" role="Primary"/>
+      <childof hlink="_e08861ab7366966e74a462aed6a"/>
+      <parentin hlink="_e08d38c88dc7662921b6d073ce4"/>
+    </person>
+    <person handle="_e08d26554244d4e7695c0270c3a" change="1543105269" id="I0015">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Esther</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e08861ab7366966e74a462aed6a"/>
+    </person>
+    <person handle="_e08d268acc114bed07c5f9003ae" change="1543105269" id="I0016">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Nancy</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e08861ab7366966e74a462aed6a"/>
+    </person>
+    <person handle="_e08d26abe47207f5a0d28e8c2d3" change="1543105329" id="I0017">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Bruce</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e082d61922b70c2e73c48e72f22"/>
+    </person>
+    <person handle="_e08d26ce2edb6965b7c0b78fd5" change="1543105329" id="I0018">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Matthew</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e082d61922b70c2e73c48e72f22"/>
+    </person>
+    <person handle="_e08d26fd42551a1c2bc6934140b" change="1543105329" id="I0019">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Elizabeth</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e082d61922b70c2e73c48e72f22"/>
+    </person>
+    <person handle="_e08d271381448affc0836077d38" change="1543105329" id="I0020">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Daniel</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e082d61922b70c2e73c48e72f22"/>
+    </person>
+    <person handle="_e08d274a25980840eddcdec509" change="1543105352" id="I0021">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Lillian Clara</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e0824df0f4b1a5dd2a0688720b8"/>
+    </person>
+    <person handle="_e08d38e12611f5049d26bbd8674" change="1543107196" id="I0022">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Ethel</first>
+        <surname></surname>
+      </name>
+      <parentin hlink="_e08d38c88dc7662921b6d073ce4"/>
+    </person>
+    <person handle="_e08d393eb2424bc4e8e7fa24c28" change="1543158406" id="I0023">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>James T.</first>
+        <surname>Bromley</surname>
+      </name>
+      <eventref hlink="_e08f1d4fcc1a4cfbf1602bf59a" role="Primary"/>
+      <childof hlink="_e08d38c88dc7662921b6d073ce4"/>
+      <parentin hlink="_e08f211f235548fb58eb08d5c8b"/>
+    </person>
+    <person handle="_e08d3965f1e1a86a0d69df34c5d" change="1543107304" id="I0024">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Linda</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e08d38c88dc7662921b6d073ce4"/>
+    </person>
+    <person handle="_e08d39ac6be3c89878ebe831105" change="1543107304" id="I0025">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Janice</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e08d38c88dc7662921b6d073ce4"/>
+    </person>
+    <person handle="_e08d5ff7b39672c32510fa22a77" change="1543111304" id="I0026">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Sumner Clinton</first>
+        <surname>Warren</surname>
+      </name>
+      <parentin hlink="_e08d5ff0c7e7f31847314ee6732"/>
+    </person>
+    <person handle="_e08d60114867c1360168c5cef50" change="1543111304" id="I0027">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Ilo</first>
+        <surname>Hutchison</surname>
+      </name>
+      <parentin hlink="_e08d5ff0c7e7f31847314ee6732"/>
+    </person>
+    <person handle="_e08f21363f87eeb0daf4723b269" change="1543158431" id="I0028">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Madelaine</first>
+        <surname>Ellis</surname>
+      </name>
+      <parentin hlink="_e08f211f235548fb58eb08d5c8b"/>
+    </person>
+    <person handle="_e08f32dc100236994c4eeedfd2" change="1543160258" id="I0029">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Virginia</first>
+        <surname>Knipe</surname>
+      </name>
+      <parentin hlink="_e08f32c1fd353ea1207a7c3aa97"/>
+    </person>
+    <person handle="_e08f331b02b45548e759a5113ed" change="1543160313" id="I0030">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>John</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e08f32c1fd353ea1207a7c3aa97"/>
+    </person>
+    <person handle="_e08f337748d2520dabb65b1cf0d" change="1543160313" id="I0031">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Thomas</first>
+        <surname>Bromley</surname>
+      </name>
+      <childof hlink="_e08f32c1fd353ea1207a7c3aa97"/>
+    </person>
+    <person handle="_e08f54398b172348a33755670e3" change="1543163754" id="I0032">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Robert Frank</first>
+        <surname>Anderson</surname>
+      </name>
+      <parentin hlink="_e08f542f4b434fc6347a67867cf"/>
+    </person>
+    <person handle="_e08f544b72247e12afca9a27a9b" change="1543163909" id="I0033">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Virginia</first>
+        <surname>Ward</surname>
+      </name>
+      <childof hlink="_e08f55988883db9f39fe8e45882"/>
+      <parentin hlink="_e08f542f4b434fc6347a67867cf"/>
+    </person>
+    <person handle="_e08f559fba127e728126e0c6990" change="1543163909" id="I0034">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Floyd Edward</first>
+        <surname>Ward</surname>
+      </name>
+      <parentin hlink="_e08f55988883db9f39fe8e45882"/>
+    </person>
+    <person handle="_e08f55bd81a47b5ea601e254c29" change="1543163909" id="I0035">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Lora Velma</first>
+        <surname>Wells</surname>
+      </name>
+      <parentin hlink="_e08f55988883db9f39fe8e45882"/>
+    </person>
+  </people>
+  <families>
+    <family handle="_e082466245266fc5ca972fc6081" change="1542898042" id="F0000">
+      <rel type="Married"/>
+      <father hlink="_e0824671cc22baeca8cffe3676d"/>
+      <mother hlink="_e08248f8ba01551cb258afbe697"/>
+      <childref hlink="_e0821f9897b2d8ace05fc7af2d5"/>
+      <childref hlink="_e0856df738e5bdeb64cab7b099"/>
+    </family>
+    <family handle="_e0824df0f4b1a5dd2a0688720b8" change="1543105352" id="F0001">
+      <rel type="Married"/>
+      <father hlink="_e0821f9897b2d8ace05fc7af2d5"/>
+      <mother hlink="_e0824e10e2835e9416556389170"/>
+      <childref hlink="_e08d274a25980840eddcdec509"/>
+    </family>
+    <family handle="_e082d61922b70c2e73c48e72f22" change="1543105329" id="F0002">
+      <rel type="Married"/>
+      <father hlink="_e082d62b8d722369b0841103784"/>
+      <mother hlink="_e082d6dd7d850d93cca8cbb8635"/>
+      <childref hlink="_e0824671cc22baeca8cffe3676d"/>
+      <childref hlink="_e08d26abe47207f5a0d28e8c2d3"/>
+      <childref hlink="_e08d26ce2edb6965b7c0b78fd5"/>
+      <childref hlink="_e08d26fd42551a1c2bc6934140b"/>
+      <childref hlink="_e08d271381448affc0836077d38"/>
+    </family>
+    <family handle="_e08861ab7366966e74a462aed6a" change="1543105269" id="F0003">
+      <rel type="Married"/>
+      <father hlink="_e08861b482631441e9ff171408c"/>
+      <mother hlink="_e08863155963f654454cfa74700"/>
+      <childref hlink="_e082d62b8d722369b0841103784"/>
+      <childref hlink="_e08d26183cc4c2332614377fd3f"/>
+      <childref hlink="_e08d263f391d7ca40d1ee39924"/>
+      <childref hlink="_e08d26554244d4e7695c0270c3a"/>
+      <childref hlink="_e08d268acc114bed07c5f9003ae"/>
+    </family>
+    <family handle="_e08bfa6b8e447a22075fb0bb36d" change="1543159230" id="F0004">
+      <rel type="Married"/>
+      <father hlink="_e08bfa753e7663f699e11e57070"/>
+      <mother hlink="_e08bfaed060686b856174e28422"/>
+      <childref hlink="_e08861b482631441e9ff171408c"/>
+    </family>
+    <family handle="_e08bfb167276f0f255e9ac137cd" change="1543159239" id="F0005">
+      <rel type="Married"/>
+      <father hlink="_e08bfb1b118241f777f5706d1e5"/>
+      <mother hlink="_e08bfb2fd3726cc71d69e9d08a9"/>
+      <childref hlink="_e08863155963f654454cfa74700"/>
+    </family>
+    <family handle="_e08d38c88dc7662921b6d073ce4" change="1543107304" id="F0006">
+      <rel type="Married"/>
+      <father hlink="_e08d263f391d7ca40d1ee39924"/>
+      <mother hlink="_e08d38e12611f5049d26bbd8674"/>
+      <childref hlink="_e08d393eb2424bc4e8e7fa24c28"/>
+      <childref hlink="_e08d3965f1e1a86a0d69df34c5d"/>
+      <childref hlink="_e08d39ac6be3c89878ebe831105"/>
+    </family>
+    <family handle="_e08d5ff0c7e7f31847314ee6732" change="1543159221" id="F0007">
+      <rel type="Married"/>
+      <father hlink="_e08d5ff7b39672c32510fa22a77"/>
+      <mother hlink="_e08d60114867c1360168c5cef50"/>
+      <childref hlink="_e082d6dd7d850d93cca8cbb8635"/>
+    </family>
+    <family handle="_e08f211f235548fb58eb08d5c8b" change="1543158406" id="F0008">
+      <rel type="Married"/>
+      <father hlink="_e08d393eb2424bc4e8e7fa24c28"/>
+      <mother hlink="_e08f21363f87eeb0daf4723b269"/>
+    </family>
+    <family handle="_e08f32c1fd353ea1207a7c3aa97" change="1543160313" id="F0009">
+      <rel type="Married"/>
+      <father hlink="_e08d26183cc4c2332614377fd3f"/>
+      <mother hlink="_e08f32dc100236994c4eeedfd2"/>
+      <childref hlink="_e08f331b02b45548e759a5113ed"/>
+      <childref hlink="_e08f337748d2520dabb65b1cf0d"/>
+    </family>
+    <family handle="_e08f542f4b434fc6347a67867cf" change="1543163754" id="F0010">
+      <rel type="Unknown"/>
+      <father hlink="_e08f54398b172348a33755670e3"/>
+      <mother hlink="_e08f544b72247e12afca9a27a9b"/>
+      <childref hlink="_e08248f8ba01551cb258afbe697"/>
+    </family>
+    <family handle="_e08f55988883db9f39fe8e45882" change="1543163909" id="F0011">
+      <rel type="Married"/>
+      <father hlink="_e08f559fba127e728126e0c6990"/>
+      <mother hlink="_e08f55bd81a47b5ea601e254c29"/>
+      <childref hlink="_e08f544b72247e12afca9a27a9b"/>
+    </family>
+  </families>
+  <citations>
+    <citation handle="_e082327b97f7ad0a2ada53c6181" change="1542811233" id="C0000">
+      <confidence>2</confidence>
+      <noteref hlink="_e082326cf9c219285d72ff55633"/>
+      <sourceref hlink="_e08232107e769e75bffdb410db9"/>
+    </citation>
+    <citation handle="_e082816ed896488a6bf70fe67ba" change="1542819511" id="C0001">
+      <dateval val="1976"/>
+      <page>Page 383</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_e08281694bd39de5bd99d98d91"/>
+    </citation>
+    <citation handle="_e082d8541cb3c188db103d342e8" change="1542828623" id="C0002">
+      <page>From Roberta Anderson Bromley</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_e08232107e769e75bffdb410db9"/>
+    </citation>
+    <citation handle="_e082df6a75026c13e4e5a43a75a" change="1542829366" id="C0003">
+      <dateval val="1925-05-07"/>
+      <page>Luman William Bromley Birth Certificate</page>
+      <confidence>2</confidence>
+      <objref hlink="_e082df65200286d7cc800843c23"/>
+      <sourceref hlink="_e082dd8e31e367e4fa7abfc535d"/>
+    </citation>
+    <citation handle="_e082eb8c82f6f7db35973db569c" change="1542830638" id="C0004">
+      <dateval val="1983-03-07"/>
+      <page>Luman Bromley death certficate</page>
+      <confidence>2</confidence>
+      <objref hlink="_e082eb4305e1e1171809db58030"/>
+      <sourceref hlink="_e082eb85a536efca06322ec98ad"/>
+    </citation>
+    <citation handle="_e0832edefa94163d7cff237ea3b" change="1542837698" id="C0005">
+      <dateval val="1950-02-18"/>
+      <page>Luman Bromley and Beth Warren marriage certificate</page>
+      <confidence>2</confidence>
+      <objref hlink="_e0832ed406d1825d8183f7837c"/>
+      <sourceref hlink="_e0832e4b713335978ee2c0f8977"/>
+    </citation>
+    <citation handle="_e085638492d74cb86ce2be4a9d9" change="1542896928" id="C0006">
+      <dateval val="1983-03-07"/>
+      <page>Luman Bromley death record</page>
+      <confidence>2</confidence>
+      <objref hlink="_e08563b7b6a1ec04bc93b0d3eb8"/>
+      <sourceref hlink="_e0856335c905cce54adb15a067f"/>
+    </citation>
+    <citation handle="_e0856b13b06777b33a91123cebb" change="1542897698" id="C0007">
+      <dateval val="1941-10-30"/>
+      <page>p. 20</page>
+      <confidence>2</confidence>
+      <objref hlink="_e0856b104511479020dafaef21a"/>
+      <sourceref hlink="_e0856af8c176313dffddb9963da"/>
+    </citation>
+    <citation handle="_e08579fd28d2796cae0c14a0e5e" change="1542899261" id="C0008">
+      <dateval val="1949-05-04"/>
+      <page>p. 11</page>
+      <confidence>2</confidence>
+      <objref hlink="_e08579f8a4a29fdc827c52ba42c"/>
+      <sourceref hlink="_e0856af8c176313dffddb9963da"/>
+    </citation>
+    <citation handle="_e08590089e33dc4229bcec20efb" change="1542901573" id="C0009">
+      <dateval val="1958"/>
+      <page>p. 127</page>
+      <confidence>2</confidence>
+      <objref hlink="_e0858d4d2e555dc1b79353702b4"/>
+      <sourceref hlink="_e0859001768523b72cdd2345786"/>
+    </citation>
+    <citation handle="_e08598d2073fd559d9abd26647" change="1542902494" id="C0010">
+      <dateval val="1949"/>
+      <page>p. 467</page>
+      <confidence>2</confidence>
+      <objref hlink="_e08598bf55173bbcf9f41329c92"/>
+      <sourceref hlink="_e08281694bd39de5bd99d98d91"/>
+    </citation>
+    <citation handle="_e08897eab516034503b10c09445" change="1543160154" id="C0011">
+      <dateval val="1965-09-15"/>
+      <page>p. 18</page>
+      <confidence>2</confidence>
+      <objref hlink="_e08f31d15322ef2febefce70778"/>
+      <sourceref hlink="_e08897e416a40751b962bae6152"/>
+    </citation>
+    <citation handle="_e08bd53ae085bc53a27b108184" change="1543069890" id="C0012">
+      <dateval val="1917-06-05"/>
+      <page>Jay Myron Bromley WWI Draft Card</page>
+      <confidence>2</confidence>
+      <objref hlink="_e08bd5374e046bb1b5c89f7bed3"/>
+      <sourceref hlink="_e08bd4f74c474d85eb2108fae5"/>
+    </citation>
+    <citation handle="_e08bddd6efe4b62adbf32fecf33" change="1543070793" id="C0013">
+      <dateval val="1942"/>
+      <page>Jay Myron Bromley Draft Card</page>
+      <confidence>2</confidence>
+      <objref hlink="_e08bddd12f3347105d8e4d61db0"/>
+      <sourceref hlink="_e08bdd622ca3ad552ab51997603"/>
+    </citation>
+    <citation handle="_e08be499b6a64af7edf7a6e691d" change="1543071502" id="C0014">
+      <dateval val="1909-12-28"/>
+      <confidence>2</confidence>
+      <sourceref hlink="_e08be48ad1467993c72ca9fb40"/>
+    </citation>
+    <citation handle="_e08bec1574061c09c472314ef21" change="1543072286" id="C0015">
+      <page>Norwood First Methodist-Episcopal</page>
+      <confidence>2</confidence>
+      <sourceref hlink="_e08bec0aaea19b370770213d63e"/>
+    </citation>
+    <citation handle="_e08f0fe49381a600aa57cd6404e" change="1543156572" id="C0016">
+      <dateval val="1996-07-29"/>
+      <page>p. 5, 7</page>
+      <confidence>2</confidence>
+      <objref hlink="_e08f0fe0fea1a450a25026272f7"/>
+      <sourceref hlink="_e08f0fa304032e0c7283c34771"/>
+    </citation>
+    <citation handle="_e08fc638bce5853e4fc6f626a7c" change="1543175690" id="C0017">
+      <dateval val="2014-06-24"/>
+      <page>Email from Diana Criss</page>
+      <confidence>2</confidence>
+      <objref hlink="_e08fc6337b517c0af06263f8dec"/>
+      <sourceref hlink="_e08fc526e734f037be2ae553a45"/>
+    </citation>
+  </citations>
+  <sources>
+    <source handle="_e08232107e769e75bffdb410db9" change="1542811189" id="S0000">
+      <stitle>Family information</stitle>
+    </source>
+    <source handle="_e08281694bd39de5bd99d98d91" change="1542819509" id="S0001">
+      <stitle>Arbutus</stitle>
+      <sauthor>Indiana University Students</sauthor>
+      <reporef hlink="_e08281624001981f4fd4e987691" medium="Book"/>
+    </source>
+    <source handle="_e082dd8e31e367e4fa7abfc535d" change="1542829171" id="S0002">
+      <stitle>Indiana Birth Certificates</stitle>
+      <reporef hlink="_e082dd6ab7827f0fbd3168038f1" medium="Electronic"/>
+    </source>
+    <source handle="_e082eb85a536efca06322ec98ad" change="1542830636" id="S0003">
+      <stitle>Indiana death certificate</stitle>
+      <reporef hlink="_e082dd6ab7827f0fbd3168038f1" medium="Book"/>
+    </source>
+    <source handle="_e0832e4b713335978ee2c0f8977" change="1542837637" id="S0004">
+      <stitle>Michigan Marriage Records</stitle>
+      <reporef hlink="_e0832e1861f32c506a2bc20aacc" medium="Book"/>
+    </source>
+    <source handle="_e0856335c905cce54adb15a067f" change="1542896873" id="S0005">
+      <stitle>Beneficiary Identification Records Locator Subsystem (BIRLS) Death File</stitle>
+      <reporef hlink="_e08562f23c11ebe7a6eea9490c8" medium="Book"/>
+    </source>
+    <source handle="_e0856af8c176313dffddb9963da" change="1542897687" id="S0006">
+      <stitle>Kokomo Tribune</stitle>
+      <reporef hlink="_e0856af3ae3417e6c4d4182f99d" medium="Book"/>
+    </source>
+    <source handle="_e0859001768523b72cdd2345786" change="1542901570" id="S0007">
+      <stitle>City Directories</stitle>
+      <reporef hlink="_e0856af3ae3417e6c4d4182f99d" medium="Book"/>
+    </source>
+    <source handle="_e08897e416a40751b962bae6152" change="1542982928" id="S0008">
+      <stitle>Kokomo Morning Times</stitle>
+      <spubinfo>Kokomo Morning Times. Kokomo, Ind</spubinfo>
+      <reporef hlink="_e0856af3ae3417e6c4d4182f99d" medium="Book"/>
+    </source>
+    <source handle="_e08bd4f74c474d85eb2108fae5" change="1543069862" id="S0009">
+      <stitle>World War I Draft Registration Cards, 1917-1918</stitle>
+      <reporef hlink="_e08bd4f1ee542c367c5d4fb8040" medium="Book"/>
+    </source>
+    <source handle="_e08bdd622ca3ad552ab51997603" change="1543070745" id="S0010">
+      <stitle>U.S. World War II Draft Registration Cards, 1942</stitle>
+      <reporef hlink="_e08bd4f1ee542c367c5d4fb8040" medium="Book"/>
+    </source>
+    <source handle="_e08be48ad1467993c72ca9fb40" change="1543071496" id="S0011">
+      <stitle>Ohio, County Marriages, 1774-1993</stitle>
+      <reporef hlink="_e0856af3ae3417e6c4d4182f99d" medium="Book"/>
+    </source>
+    <source handle="_e08bec0aaea19b370770213d63e" change="1543072282" id="S0012">
+      <stitle>Norwood Churches</stitle>
+      <spubinfo>http://sites.rootsweb.com/~ohnhs2/churches.html</spubinfo>
+      <reporef hlink="_e08beb8b7b64ca9f2f766fd8dc3" medium="Book"/>
+    </source>
+    <source handle="_e08f0fa304032e0c7283c34771" change="1543156545" id="S0013">
+      <stitle>Tampa Bay Times (FL)</stitle>
+      <reporef hlink="_e08f0f5ebf55cd6b9de95373ab8" medium="Book"/>
+    </source>
+    <source handle="_e08fc526e734f037be2ae553a45" change="1543175578" id="S0014">
+      <stitle>First Baptist Church of Kokomo</stitle>
+      <reporef hlink="_e08fc52297c1d4dd2bdefdbf4d5" medium="Book"/>
+    </source>
+  </sources>
+  <places>
+    <placeobj handle="_e082211020d50c52d1feb69f348" change="1543155877" id="P0000" type="Country">
+      <pname value="United States">
+        <dateval val="1776-07-04" type="after"/>
+      </pname>
+    </placeobj>
+    <placeobj handle="_e082211dba528dc8073aa264cbd" change="1542812942" id="P0001" type="State">
+      <pname value="Ohio">
+        <dateval val="1803" type="after"/>
+      </pname>
+      <placeref hlink="_e082211020d50c52d1feb69f348">
+        <dateval val="1776"/>
+      </placeref>
+    </placeobj>
+    <placeobj handle="_e08221520122e1dcd9b71d6dbd8" change="1543069420" id="P0002" type="City">
+      <pname value="Cincinnati">
+        <dateval val="1789" type="after"/>
+      </pname>
+      <placeref hlink="_e0822f1292c7ac55b71b6fe33aa"/>
+    </placeobj>
+    <placeobj handle="_e0822a890f97c69d37f6e007f64" change="1542896240" id="P0003" type="State">
+      <pname value="Virginia">
+        <dateval val="1776" type="after"/>
+      </pname>
+      <pname value="Colony of Virginia">
+        <datespan start="1607" stop="1776"/>
+      </pname>
+      <placeref hlink="_e082211020d50c52d1feb69f348"/>
+    </placeobj>
+    <placeobj handle="_e0822a9ee897ec291495886da14" change="1542896253" id="P0004" type="County">
+      <pname value="Hanover">
+        <dateval val="1720" type="after"/>
+      </pname>
+      <placeref hlink="_e0822a890f97c69d37f6e007f64"/>
+    </placeobj>
+    <placeobj handle="_e0822aa2d09483c55be975c328a" change="1542810410" id="P0005" type="District">
+      <pname value="Mechanicsville"/>
+      <placeref hlink="_e0822a9ee897ec291495886da14"/>
+    </placeobj>
+    <placeobj handle="_e0822aa88ddbe6275ca1327ff9" change="1542810412" id="P0006" type="Building">
+      <pname value="7092 Spicewood Drive"/>
+      <coord long="-77.34203" lat="37.62953"/>
+      <placeref hlink="_e0822aa2d09483c55be975c328a"/>
+    </placeobj>
+    <placeobj handle="_e0822d8fe83645bed293a91e036" change="1542820584" id="P0007" type="Building">
+      <pname value="2561 Observatory Ave">
+        <dateval val="1905" type="after"/>
+      </pname>
+      <coord long="-84.44741" lat="39.13724"/>
+      <placeref hlink="_e08221520122e1dcd9b71d6dbd8"/>
+    </placeobj>
+    <placeobj handle="_e0822f1292c7ac55b71b6fe33aa" change="1543072155" id="P0008" type="County">
+      <pname value="Hamilton">
+        <dateval val="1790" type="after"/>
+      </pname>
+      <placeref hlink="_e082211dba528dc8073aa264cbd"/>
+    </placeobj>
+    <placeobj handle="_e0823423db94321ceed023648f0" change="1542813045" id="P0009" type="Building">
+      <pname value="Christ Hospital">
+        <dateval val="1889" type="after"/>
+      </pname>
+      <coord long="-84.51071" lat="39.12097"/>
+      <placeref hlink="_e08221520122e1dcd9b71d6dbd8">
+        <dateval val="1789"/>
+      </placeref>
+    </placeobj>
+    <placeobj handle="_e08247e780155f64e1625bf383" change="1543163935" id="P0010" type="City">
+      <pname value="Detroit">
+        <dateval val="1806-09-13" type="after"/>
+      </pname>
+      <pname value="Town of Detroit">
+        <dateval val="1701-07-24"/>
+      </pname>
+      <coord long="-83.045833" lat="42.331389"/>
+      <placeref hlink="_e08248a18ba20a850fded2c108f"/>
+      <citationref hlink="_e082327b97f7ad0a2ada53c6181"/>
+    </placeobj>
+    <placeobj handle="_e08248a18ba20a850fded2c108f" change="1542837405" id="P0011" type="State">
+      <pname value="Michigan">
+        <dateval val="1837-01-26" type="after"/>
+      </pname>
+      <placeref hlink="_e082211020d50c52d1feb69f348"/>
+    </placeobj>
+    <placeobj handle="_e0824bb997a7ff009842ca254c9" change="1542816597" id="P0012" type="State">
+      <pname value="Missouri">
+        <dateval val="1821-08-10" type="after"/>
+      </pname>
+      <placeref hlink="_e082211020d50c52d1feb69f348"/>
+    </placeobj>
+    <placeobj handle="_e0824bbce353a6709d231dbc5fb" change="1542813881" id="P0013" type="City">
+      <pname value="Kansas City">
+        <dateval val="1853-03-28" type="after"/>
+      </pname>
+      <pname value="Town of Kansas">
+        <dateval val="1850-06-01" type="after"/>
+      </pname>
+      <coord long="-94.578333" lat="39.099722"/>
+      <placeref hlink="_e0824bb997a7ff009842ca254c9"/>
+    </placeobj>
+    <placeobj handle="_e082511d37c3bcc1084201323b3" change="1542814479" id="P0014" type="Town">
+      <pname value="Pulaski">
+        <dateval val="1886" type="after"/>
+      </pname>
+      <placeref hlink="_e082516d4c53beaf663770d4b76"/>
+    </placeobj>
+    <placeobj handle="_e082516d4c53beaf663770d4b76" change="1542816766" id="P0015" type="County">
+      <pname value="Pulaski">
+        <dateval val="1820" type="after"/>
+      </pname>
+      <placeref hlink="_e0822a890f97c69d37f6e007f64"/>
+    </placeobj>
+    <placeobj handle="_e08251753864f2f64b535ef16cc" change="1542814534" id="P0016" type="Building">
+      <pname value="Pulaski Community Hospital">
+        <dateval val="1915" type="after"/>
+      </pname>
+      <coord long="-80.7569" lat="37.0683"/>
+      <placeref hlink="_e082511d37c3bcc1084201323b3"/>
+    </placeobj>
+    <placeobj handle="_e082652b0b0712d7f5c34d764fa" change="1542816571" id="P0017" type="Building">
+      <pname value="7292 Timberlane Dr"/>
+      <coord long="-80.58821" lat="37.15863"/>
+      <placeref hlink="_e082516d4c53beaf663770d4b76"/>
+    </placeobj>
+    <placeobj handle="_e08267469941d8cc73338935fba" change="1542816769" id="P0018" type="Building">
+      <pname value="7378 Dent Drive"/>
+      <coord long="-80.58275" lat="37.16151"/>
+      <placeref hlink="_e082516d4c53beaf663770d4b76"/>
+    </placeobj>
+    <placeobj handle="_e08268cd7665fd7f8640db31b15" change="1542816929" id="P0019" type="County">
+      <pname value="Henrico">
+        <dateval val="1634" type="after"/>
+      </pname>
+      <placeref hlink="_e0822a890f97c69d37f6e007f64"/>
+    </placeobj>
+    <placeobj handle="_e08268d27b81cf85890b869295d" change="1542816931" id="P0020" type="Building">
+      <pname value="245 East Jerald Street"/>
+      <coord long="-77.33072" lat="37.53874"/>
+      <placeref hlink="_e08268cd7665fd7f8640db31b15"/>
+    </placeobj>
+    <placeobj handle="_e0826a5cb0a5deb00fff812c0d6" change="1542817092" id="P0021" type="City">
+      <pname value="Richmond">
+        <dateval val="1737" type="after"/>
+      </pname>
+      <placeref hlink="_e0822a890f97c69d37f6e007f64"/>
+    </placeobj>
+    <placeobj handle="_e0826a627fa60af6f2d8cc95e0" change="1542817095" id="P0022" type="Building">
+      <pname value="4 South Dooley Ave"/>
+      <coord long="-77.48342" lat="37.55525"/>
+      <placeref hlink="_e0826a5cb0a5deb00fff812c0d6"/>
+    </placeobj>
+    <placeobj handle="_e082901002a441882f1b48c5eb2" change="1542821118" id="P0023" type="Building">
+      <pname value="4855 Le Blond Ave">
+        <dateval val="1930" type="after"/>
+      </pname>
+      <coord long="-84.41917" lat="39.12653"/>
+      <placeref hlink="_e08221520122e1dcd9b71d6dbd8"/>
+    </placeobj>
+    <placeobj handle="_e08297d73526e68aa098fce52c5" change="1542822013" id="P0024" type="County">
+      <pname value="Marion">
+        <dateval val="1822" type="after"/>
+      </pname>
+      <placeref hlink="_e08299056b238b0f9d55a9e6f58"/>
+    </placeobj>
+    <placeobj handle="_e08299056b238b0f9d55a9e6f58" change="1542830154" id="P0025" type="State">
+      <pname value="Indiana">
+        <dateval val="1816-12-11" type="after"/>
+      </pname>
+      <placeref hlink="_e082211020d50c52d1feb69f348"/>
+    </placeobj>
+    <placeobj handle="_e08299504546bc13aa5fe692dfd" change="1542822015" id="P0026" type="City">
+      <pname value="Indianapolis"/>
+      <placeref hlink="_e08297d73526e68aa098fce52c5"/>
+    </placeobj>
+    <placeobj handle="_e08299566cb2bb013d460361a3b" change="1542822018" id="P0027" type="Building">
+      <pname value="6153 Kingsley Dr"/>
+      <coord long="-86.13051" lat="39.86716"/>
+      <placeref hlink="_e08299504546bc13aa5fe692dfd"/>
+    </placeobj>
+    <placeobj handle="_e082dc0e01f422891ffe238a56b" change="1542896329" id="P0028" type="County">
+      <pname value="Howard">
+        <dateval val="1846" type="after"/>
+      </pname>
+      <pname value="Richardville">
+        <datespan start="1844" stop="1846"/>
+      </pname>
+      <placeref hlink="_e08299056b238b0f9d55a9e6f58"/>
+    </placeobj>
+    <placeobj handle="_e082dc3ea64545bb2c6ace2a6c7" change="1542977962" id="P0029" type="City">
+      <pname value="Kokomo">
+        <dateval val="1855-06" type="after"/>
+      </pname>
+      <coord long="-86.131667" lat="40.482222"/>
+      <placeref hlink="_e082dc0e01f422891ffe238a56b"/>
+    </placeobj>
+    <placeobj handle="_e082e6f28a72c610fb65051f33" change="1542830156" id="P0030" type="County">
+      <pname value="Allen">
+        <dateval val="1824-04-01" type="after"/>
+      </pname>
+      <placeref hlink="_e08299056b238b0f9d55a9e6f58"/>
+    </placeobj>
+    <placeobj handle="_e082e6f5a3140059839aba6f4e2" change="1542914066" id="P0031" type="City">
+      <pname value="Fort Wayne">
+        <dateval val="1794-10-22" type="after"/>
+      </pname>
+      <placeref hlink="_e082e6f28a72c610fb65051f33"/>
+    </placeobj>
+    <placeobj handle="_e082e6f947f2fda9a19154bcb7c" change="1542830159" id="P0032" type="Building">
+      <pname value="1225 Sherwood Terrace"/>
+      <coord long="-85.15387" lat="41.03975"/>
+      <placeref hlink="_e082e6f5a3140059839aba6f4e2"/>
+    </placeobj>
+    <placeobj handle="_e0832c17795865b3307454d169" change="1542837406" id="P0033" type="County">
+      <pname value="Washtenaw">
+        <dateval val="1826" type="after"/>
+      </pname>
+      <placeref hlink="_e08248a18ba20a850fded2c108f"/>
+    </placeobj>
+    <placeobj handle="_e0832c1a7a6348c04bfed199dab" change="1542837407" id="P0034" type="City">
+      <pname value="Ann Arbor">
+        <dateval val="1824-05-25" type="after"/>
+      </pname>
+      <coord long="-83.748333" lat="42.281389"/>
+      <placeref hlink="_e0832c17795865b3307454d169"/>
+    </placeobj>
+    <placeobj handle="_e0857ebfc8d1fe87df6682e9216" change="1542899761" id="P0035" type="Building">
+      <pname value="4216 Drury Lane"/>
+      <coord long="-85.15047" lat="41.04518"/>
+      <placeref hlink="_e082e6f5a3140059839aba6f4e2"/>
+    </placeobj>
+    <placeobj handle="_e086073881c2d9b53ab08d21f01" change="1542914071" id="P0036" type="Unknown">
+      <pname value="2518 Covington Pointe Trail"/>
+      <coord long="-85.25059" lat="41.06094"/>
+      <placeref hlink="_e082e6f5a3140059839aba6f4e2"/>
+    </placeobj>
+    <placeobj handle="_e0886892679477e58d6d1cd6308" change="1542977966" id="P0037" type="Building">
+      <pname value="311 N. Western Ave.">
+        <dateval val="1923" type="after"/>
+      </pname>
+      <coord long="-86.14853" lat="40.48862"/>
+      <placeref hlink="_e082dc3ea64545bb2c6ace2a6c7"/>
+    </placeobj>
+    <placeobj handle="_e0889108f657dd9addfd53f002d" change="1542982209" id="P0038" type="State">
+      <pname value="New York">
+        <dateval val="1788" type="after"/>
+      </pname>
+      <placeref hlink="_e082211020d50c52d1feb69f348"/>
+    </placeobj>
+    <placeobj handle="_e088910c4655e51c04638db0c9" change="1542982210" id="P0039" type="County">
+      <pname value="Cattaraugus">
+        <dateval val="1817" type="after"/>
+      </pname>
+      <placeref hlink="_e0889108f657dd9addfd53f002d"/>
+    </placeobj>
+    <placeobj handle="_e0889111ea0433ee111655b0276" change="1542982212" id="P0040" type="City">
+      <pname value="Olean">
+        <dateval val="1808" type="after"/>
+      </pname>
+      <coord long="-78.430833" lat="42.0825"/>
+      <placeref hlink="_e088910c4655e51c04638db0c9"/>
+    </placeobj>
+    <placeobj handle="_e088ccbb71067303a04051e69d7" change="1542988533" id="P0041" type="District">
+      <pname value="Rossmoyne">
+        <dateval val="1900" type="after"/>
+      </pname>
+      <pname value="Mill Dale">
+        <dateval val="1900" type="before"/>
+      </pname>
+      <placeref hlink="_e0822f1292c7ac55b71b6fe33aa"/>
+    </placeobj>
+    <placeobj handle="_e088cd5bd907b958eea2a38bdd1" change="1542988534" id="P0042" type="Building">
+      <pname value="Linden Ave."/>
+      <coord long="-84.39496" lat="39.20909"/>
+      <placeref hlink="_e088ccbb71067303a04051e69d7"/>
+    </placeobj>
+    <placeobj handle="_e08bd0fe094131329a43606cf22" change="1543069446" id="P0043" type="Building">
+      <pname value="L. Schreiber and Sons">
+        <daterange start="1901" stop="1962"/>
+      </pname>
+      <coord long="-84.46499" lat="39.14997"/>
+      <placeref hlink="_e08221520122e1dcd9b71d6dbd8"/>
+    </placeobj>
+    <placeobj handle="_e08bead6cfd4de0ee941a2556fe" change="1543072156" id="P0044" type="City">
+      <pname value="Norwood">
+        <dateval val="1870" type="after"/>
+      </pname>
+      <pname value="Sharpsburg">
+        <datespan start="1809" stop="1870"/>
+      </pname>
+      <placeref hlink="_e0822f1292c7ac55b71b6fe33aa"/>
+    </placeobj>
+    <placeobj handle="_e08bec1d1d55ad23b1eeb829faf" change="1543072290" id="P0045" type="Building">
+      <pname value="First Methodist Episcopal Church of Norwood"/>
+      <coord long="-84.45639" lat="39.16215"/>
+      <placeref hlink="_e08bead6cfd4de0ee941a2556fe"/>
+      <noteref hlink="_e08be995716e64bdecca8bb5e1"/>
+      <citationref hlink="_e08bec1574061c09c472314ef21"/>
+    </placeobj>
+    <placeobj handle="_e08f0948283336708cc36b56bf2" change="1543155879" id="P0046" type="State">
+      <pname value="Florida">
+        <dateval val="1845" type="after"/>
+      </pname>
+      <placeref hlink="_e082211020d50c52d1feb69f348"/>
+    </placeobj>
+    <placeobj handle="_e08f094af5b4b8f9a72d5884e26" change="1543155880" id="P0047" type="County">
+      <pname value="Pinellas">
+        <dateval val="1912" type="after"/>
+      </pname>
+      <placeref hlink="_e08f0948283336708cc36b56bf2"/>
+    </placeobj>
+    <placeobj handle="_e08f094f38274539bfc11322e9a" change="1543155882" id="P0048" type="City">
+      <pname value="Palm Harbor">
+        <dateval val="1925" type="after"/>
+      </pname>
+      <coord long="-82.753889" lat="28.083889"/>
+      <placeref hlink="_e08f094af5b4b8f9a72d5884e26"/>
+    </placeobj>
+  </places>
+  <objects>
+    <object handle="_e08281896714c0c669602e3fe5c" change="1542819548" id="O0000">
+      <file src="gramps/media/Joel.Bromley.Arbutus.1976.png" mime="image/png" checksum="c4bad1ba473b35b634cf1679f88b48fb" description="Joel.Bromley.Arbutus.1976"/>
+      <citationref hlink="_e082816ed896488a6bf70fe67ba"/>
+    </object>
+    <object handle="_e082d85842e6736467d84982481" change="1542828644" id="O0001">
+      <file src="gramps/media/Luman.Bromley.Navy.jpg" mime="image/jpeg" checksum="6a1dfb009843dc3b5d07b2bfe7339d65" description="Luman.Bromley.Navy"/>
+      <citationref hlink="_e082d8541cb3c188db103d342e8"/>
+    </object>
+    <object handle="_e082df65200286d7cc800843c23" change="1542829364" id="O0002">
+      <file src="gramps/media/Luman.Bromley.birth.certficate.png" mime="image/png" checksum="f4fc09b2bf20233d3d37b3c8849fd250" description="Luman.Bromley.birth.certficate"/>
+    </object>
+    <object handle="_e082eb4305e1e1171809db58030" change="1542830608" id="O0003">
+      <file src="gramps/media/Luman.Bromley.death.certficate.png" mime="image/png" checksum="5d8512c0977b728a6278467828387d96" description="Luman.Bromley.death.certficate"/>
+    </object>
+    <object handle="_e0832ed406d1825d8183f7837c" change="1542837693" id="O0004">
+      <file src="gramps/media/Luman.Beth.Bromley.marriage.license.pdf" mime="application/pdf" checksum="faf1a724cac2c77f970d9a0ca142f823" description="Luman.Beth.Bromley.marriage.license"/>
+    </object>
+    <object handle="_e08563b7b6a1ec04bc93b0d3eb8" change="1542896926" id="O0005">
+      <file src="gramps/media/Luman.Bromley.Navy.record.pdf" mime="application/pdf" checksum="40295c0850a77439a765f58848758ebe" description="Luman.Bromley.Navy.record"/>
+    </object>
+    <object handle="_e0856b104511479020dafaef21a" change="1542897696" id="O0006">
+      <file src="gramps/media/Luman.Bromley.Kokomo.Tribune.10.30.1941.png" mime="image/png" checksum="120270f8b90467bbbd3d9ab2da24db33" description="Luman.Bromley.Kokomo.Tribune.10.30.1941"/>
+    </object>
+    <object handle="_e08579f8a4a29fdc827c52ba42c" change="1542899260" id="O0007">
+      <file src="gramps/media/Luman.Bromley.Kokomo.Tribune.5.4.1949.png" mime="image/png" checksum="5b2a407ddb10deafa040b1670f596c58" description="Luman.Bromley.Kokomo.Tribune.5.4.1949"/>
+    </object>
+    <object handle="_e0858d4d2e555dc1b79353702b4" change="1542901286" id="O0008">
+      <file src="gramps/media/Luman.Beth.Bromley.city.directory.1958.png" mime="image/png" checksum="ee76eece1c2204c29b45aeb6ac0518cb" description="Luman.Beth.Bromley.city.directory.1958"/>
+    </object>
+    <object handle="_e08598bf55173bbcf9f41329c92" change="1542902487" id="O0009">
+      <file src="gramps/media/Luman.Bromley.Arbutus.1949.png" mime="image/png" checksum="07e0126f01536254f30ba41089ce2e25" description="Luman.Bromley.Arbutus.1949"/>
+    </object>
+    <object handle="_e08bd5374e046bb1b5c89f7bed3" change="1543069889" id="O0010">
+      <file src="gramps/media/Jay.M.Bromley.WWI.jpg" mime="image/jpeg" checksum="eb5937ca2dcc11890d2f84a3bab03300" description="Jay.M.Bromley.WWI"/>
+    </object>
+    <object handle="_e08bddd12f3347105d8e4d61db0" change="1543070790" id="O0011">
+      <file src="gramps/media/Jay.M.Bromley.WW2.jpg" mime="image/jpeg" checksum="ee4f6e1660bb9d0e1d2f93d694c45351" description="Jay.M.Bromley.WW2"/>
+    </object>
+    <object handle="_e08f0fe0fea1a450a25026272f7" change="1543156570" id="O0012">
+      <file src="gramps/media/Jay.T.Bromley.obit.png" mime="image/png" checksum="c70f4e7d7b3408297971f9f4ea4ee96d" description="Jay.T.Bromley.obit"/>
+    </object>
+    <object handle="_e08f31d15322ef2febefce70778" change="1543160129" id="O0013">
+      <file src="gramps/media/Jay.M.Bromley.Obit.png" mime="image/png" checksum="25e3167d090c28343e08dbb54f9fe0d3" description="Jay.M.Bromley.Obit"/>
+    </object>
+    <object handle="_e08fc6337b517c0af06263f8dec" change="1543175688" id="O0014">
+      <file src="gramps/media/Jay.M.Bromley.KFBC.pdf" mime="application/pdf" checksum="8501bc1107bca42a58c50b7f824a870d" description="Jay.M.Bromley.KFBC"/>
+    </object>
+  </objects>
+  <repositories>
+    <repository handle="_e08281624001981f4fd4e987691" change="1542819506" id="R0000">
+      <rname>Indiana University</rname>
+      <type>Library</type>
+    </repository>
+    <repository handle="_e082dd6ab7827f0fbd3168038f1" change="1542830634" id="R0001">
+      <rname>Indiana Archives and Records Administration</rname>
+      <type>Archive</type>
+    </repository>
+    <repository handle="_e0832e1861f32c506a2bc20aacc" change="1542837616" id="R0002">
+      <rname>Michigan Department of Community Health</rname>
+      <type>Library</type>
+    </repository>
+    <repository handle="_e08562f23c11ebe7a6eea9490c8" change="1542896845" id="R0003">
+      <rname>U.S. Department of Veterans Affairs</rname>
+      <type>Library</type>
+    </repository>
+    <repository handle="_e0856af3ae3417e6c4d4182f99d" change="1543071494" id="R0004">
+      <rname>Ancestry.com</rname>
+      <type>Library</type>
+    </repository>
+    <repository handle="_e08bd4f1ee542c367c5d4fb8040" change="1543070743" id="R0005">
+      <rname>National Archives and Records Administration</rname>
+      <type>Archive</type>
+    </repository>
+    <repository handle="_e08beb8b7b64ca9f2f766fd8dc3" change="1543072230" id="R0006">
+      <rname>Norwood Historical Society</rname>
+      <type>Library</type>
+    </repository>
+    <repository handle="_e08f0f5ebf55cd6b9de95373ab8" change="1543156517" id="R0007">
+      <rname>Access World News</rname>
+      <type>Collection</type>
+    </repository>
+    <repository handle="_e08fc52297c1d4dd2bdefdbf4d5" change="1543175577" id="R0008">
+      <rname>Personal outreach</rname>
+      <type>Collection</type>
+    </repository>
+  </repositories>
+  <notes>
+    <note handle="_e082326cf9c219285d72ff55633" change="1542811227" id="N0000" type="Citation">
+      <text>Personal information from Joel and Roberta Bromley</text>
+    </note>
+    <note handle="_e088a19a46f52debb91bab59116" change="1542983946" id="N0001" type="Event Note">
+      <text>Foreman until Hoosier Iron Works closed</text>
+    </note>
+    <note handle="_e08be3d2efd23604dad583b763e" change="1543071420" id="N0002" type="Event Note">
+      <text>Married by a Methodist Episcopal clergyman, Jesse L. Corley, likely of First Methodist Episcopal Church of Norwood. The Methodist Episcopal Church was the largest Methodist denomination from 1784 to 1939, when it merged to found the Methodist Church. In the 1960s it merged to form the United Methodist Church.</text>
+    </note>
+    <note handle="_e08be995716e64bdecca8bb5e1" change="1543072024" id="N0003" type="Place Note">
+      <text>Opened in 1905, closed in 2009</text>
+    </note>
+    <note handle="_e08bfc15d6115067ee94c53674a" change="1543073964" id="N0004" type="Event Note">
+      <text>Pulmonary edema due to emphysema. Living in the Oconto, Wisconsin, but taken to St. Mary's Hospital in Rochester, Minnesota.</text>
+    </note>
+  </notes>
+</database>

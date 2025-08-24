@@ -1,0 +1,832 @@
+database:
+  header:
+    created: ''
+    researcher:
+      resname: Ben Bromley
+      rescity: Mecanicsville
+      resstate: Virginia
+      rescountry: USA
+      resemail: ben@amongotheritems.org
+    mediapath: /var/home/bsbrom/Pictures/Bromley-Stafford tree_2018-11-25.gpkg.media
+  events:
+    event:
+      - type: Birth
+        dateval: ''
+        place: ''
+        citationref: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+      - type: Birth
+        dateval: ''
+        place: ''
+      - type: Birth
+        dateval: ''
+        place: ''
+      - type: Birth
+        dateval: ''
+        place: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+      - type: Birth
+        dateval: ''
+        place: ''
+        citationref:
+          - ''
+          - ''
+      - type: Death
+        dateval: ''
+        place: ''
+        citationref:
+          - ''
+          - ''
+      - type: Marriage
+        dateval: ''
+        place: ''
+        citationref: ''
+      - type: Military Service
+        datespan: ''
+        citationref: ''
+      - type: Education
+        datespan: ''
+        place: ''
+        description: Kokomo High School
+        citationref: ''
+      - type: Birth
+        dateval: ''
+        place: ''
+      - type: Education
+        datespan: ''
+        place: ''
+        description: Indiana University School of Medicine
+        citationref:
+          - ''
+          - ''
+      - type: Occupation
+        datespan: ''
+        place: ''
+        description: Intern at Henry Ford Hospital
+        citationref: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+        citationref: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+      - type: Residence
+        datespan: ''
+        place: ''
+      - type: Birth
+        place: ''
+        citationref: ''
+      - type: Residence
+        datespan: ''
+        place: ''
+      - type: Birth
+        dateval: ''
+        place: ''
+        citationref: ''
+      - type: Occupation
+        daterange: ''
+        place: ''
+        description: Foreman, Malleable Iron Works
+        citationref: ''
+      - type: Occupation
+        daterange: ''
+        place: ''
+        description: Foreman, Hoosier Iron Works
+        noteref: ''
+        citationref:
+          - ''
+          - ''
+      - type: Residence
+        dateval: ''
+        place: ''
+        citationref: ''
+      - type: Occupation
+        dateval: ''
+        place: ''
+        description: Molder
+        citationref: ''
+      - type: Marriage
+        dateval: ''
+        place: ''
+        noteref: ''
+        citationref:
+          - ''
+          - ''
+      - type: Death
+        dateval: ''
+        noteref: ''
+        citationref: ''
+      - type: Death
+        dateval: ''
+        place: ''
+        citationref: ''
+      - type: Residence
+        dateval: ''
+        place: ''
+        citationref: ''
+      - type: Religion
+        dateval: ''
+        place: ''
+        description: First Baptist Church of Kokomo
+        citationref: ''
+      - type: Death
+        dateval: ''
+        citationref: ''
+  people:
+    person:
+      - gender: M
+        name:
+          first: Benjamin Stewart
+          surname: Bromley
+        eventref:
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+        address:
+          dateval: ''
+          street: 7092 Spicewood Drive
+          city: Mechanicsville
+          state: VA
+          postal: 23111
+        childof: ''
+        parentin: ''
+      - gender: M
+        name:
+          first: Joel Jay
+          surname: Bromley
+        eventref:
+          - ''
+          - ''
+          - ''
+          - ''
+        objref: ''
+        childof: ''
+        parentin: ''
+      - gender: F
+        name:
+          first: Roberta Sue
+          surname: Anderson
+          nick: Bobbi
+        eventref:
+          - ''
+          - ''
+          - ''
+        childof: ''
+        parentin: ''
+      - gender: F
+        name:
+          first: Christiana Marie
+          surname: Stafford
+          nick: Christi
+        eventref:
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+        parentin: ''
+      - gender: M
+        name:
+          first: Luman William
+          surname: Bromley
+        eventref:
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+        objref: ''
+        childof: ''
+        parentin: ''
+      - gender: F
+        name:
+          first: Beth Maxine
+          surname: Warren
+        eventref:
+          - ''
+          - ''
+          - ''
+          - ''
+        childof: ''
+        parentin: ''
+      - gender: F
+        name:
+          first: Sarah Elizabeth
+          surname: Bromley
+        eventref: ''
+        childof: ''
+      - gender: M
+        name:
+          - first: Jay Myron
+            surname: Bromley
+          - first: Myron
+            surname: Bromley
+        eventref:
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+        childof: ''
+        parentin: ''
+        citationref:
+          - ''
+          - ''
+      - gender: F
+        name:
+          first: Susanna
+          surname: Kidd
+        eventref:
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+        childof: ''
+        parentin: ''
+        citationref:
+          - ''
+          - ''
+      - gender: M
+        name:
+          - first: Alexander Thomas
+            surname: Bromley
+          - first: Thomas
+            surname: ''
+        parentin: ''
+      - gender: F
+        name:
+          first: Lillie
+          surname: Smith
+        parentin: ''
+      - gender: M
+        name:
+          first: William G.
+          surname: Kidd
+        parentin: ''
+      - gender: F
+        name:
+          first: Susanna
+          surname: Williamson
+        parentin: ''
+      - gender: M
+        name:
+          first: Lee Myron
+          surname: Bromley
+        childof: ''
+        parentin: ''
+      - gender: M
+        name:
+          first: Jay Thomas
+          surname: Bromley
+        eventref: ''
+        childof: ''
+        parentin: ''
+      - gender: F
+        name:
+          first: Esther
+          surname: Bromley
+        childof: ''
+      - gender: F
+        name:
+          first: Nancy
+          surname: Bromley
+        childof: ''
+      - gender: M
+        name:
+          first: Bruce
+          surname: Bromley
+        childof: ''
+      - gender: M
+        name:
+          first: Matthew
+          surname: Bromley
+        childof: ''
+      - gender: F
+        name:
+          first: Elizabeth
+          surname: Bromley
+        childof: ''
+      - gender: M
+        name:
+          first: Daniel
+          surname: Bromley
+        childof: ''
+      - gender: F
+        name:
+          first: Lillian Clara
+          surname: Bromley
+        childof: ''
+      - gender: F
+        name:
+          first: Ethel
+          surname: ''
+        parentin: ''
+      - gender: M
+        name:
+          first: James T.
+          surname: Bromley
+        eventref: ''
+        childof: ''
+        parentin: ''
+      - gender: F
+        name:
+          first: Linda
+          surname: Bromley
+        childof: ''
+      - gender: F
+        name:
+          first: Janice
+          surname: Bromley
+        childof: ''
+      - gender: M
+        name:
+          first: Sumner Clinton
+          surname: Warren
+        parentin: ''
+      - gender: F
+        name:
+          first: Ilo
+          surname: Hutchison
+        parentin: ''
+      - gender: F
+        name:
+          first: Madelaine
+          surname: Ellis
+        parentin: ''
+      - gender: F
+        name:
+          first: Virginia
+          surname: Knipe
+        parentin: ''
+      - gender: M
+        name:
+          first: John
+          surname: Bromley
+        childof: ''
+      - gender: M
+        name:
+          first: Thomas
+          surname: Bromley
+        childof: ''
+      - gender: M
+        name:
+          first: Robert Frank
+          surname: Anderson
+        parentin: ''
+      - gender: F
+        name:
+          first: Virginia
+          surname: Ward
+        childof: ''
+        parentin: ''
+      - gender: M
+        name:
+          first: Floyd Edward
+          surname: Ward
+        parentin: ''
+      - gender: F
+        name:
+          first: Lora Velma
+          surname: Wells
+        parentin: ''
+  families:
+    family:
+      - rel: ''
+        father: ''
+        mother: ''
+        childref:
+          - ''
+          - ''
+      - rel: ''
+        father: ''
+        mother: ''
+        childref: ''
+      - rel: ''
+        father: ''
+        mother: ''
+        childref:
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+      - rel: ''
+        father: ''
+        mother: ''
+        childref:
+          - ''
+          - ''
+          - ''
+          - ''
+          - ''
+      - rel: ''
+        father: ''
+        mother: ''
+        childref: ''
+      - rel: ''
+        father: ''
+        mother: ''
+        childref: ''
+      - rel: ''
+        father: ''
+        mother: ''
+        childref:
+          - ''
+          - ''
+          - ''
+      - rel: ''
+        father: ''
+        mother: ''
+        childref: ''
+      - rel: ''
+        father: ''
+        mother: ''
+      - rel: ''
+        father: ''
+        mother: ''
+        childref:
+          - ''
+          - ''
+      - rel: ''
+        father: ''
+        mother: ''
+        childref: ''
+      - rel: ''
+        father: ''
+        mother: ''
+        childref: ''
+  citations:
+    citation:
+      - confidence: 2
+        noteref: ''
+        sourceref: ''
+      - dateval: ''
+        page: Page 383
+        confidence: 2
+        sourceref: ''
+      - page: From Roberta Anderson Bromley
+        confidence: 2
+        sourceref: ''
+      - dateval: ''
+        page: Luman William Bromley Birth Certificate
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: Luman Bromley death certficate
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: Luman Bromley and Beth Warren marriage certificate
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: Luman Bromley death record
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: p. 20
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: p. 11
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: p. 127
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: p. 467
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: p. 18
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: Jay Myron Bromley WWI Draft Card
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: Jay Myron Bromley Draft Card
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        confidence: 2
+        sourceref: ''
+      - page: Norwood First Methodist-Episcopal
+        confidence: 2
+        sourceref: ''
+      - dateval: ''
+        page: p. 5, 7
+        confidence: 2
+        objref: ''
+        sourceref: ''
+      - dateval: ''
+        page: Email from Diana Criss
+        confidence: 2
+        objref: ''
+        sourceref: ''
+  sources:
+    source:
+      - stitle: Family information
+      - stitle: Arbutus
+        sauthor: Indiana University Students
+        reporef: ''
+      - stitle: Indiana Birth Certificates
+        reporef: ''
+      - stitle: Indiana death certificate
+        reporef: ''
+      - stitle: Michigan Marriage Records
+        reporef: ''
+      - stitle: >-
+          Beneficiary Identification Records Locator Subsystem (BIRLS) Death
+          File
+        reporef: ''
+      - stitle: Kokomo Tribune
+        reporef: ''
+      - stitle: City Directories
+        reporef: ''
+      - stitle: Kokomo Morning Times
+        spubinfo: Kokomo Morning Times. Kokomo, Ind
+        reporef: ''
+      - stitle: World War I Draft Registration Cards, 1917-1918
+        reporef: ''
+      - stitle: U.S. World War II Draft Registration Cards, 1942
+        reporef: ''
+      - stitle: Ohio, County Marriages, 1774-1993
+        reporef: ''
+      - stitle: Norwood Churches
+        spubinfo: http://sites.rootsweb.com/~ohnhs2/churches.html
+        reporef: ''
+      - stitle: Tampa Bay Times (FL)
+        reporef: ''
+      - stitle: First Baptist Church of Kokomo
+        reporef: ''
+  places:
+    placeobj:
+      - pname:
+          dateval: ''
+      - pname:
+          dateval: ''
+        placeref:
+          dateval: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          - dateval: ''
+          - datespan: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        coord: ''
+        placeref:
+          dateval: ''
+      - pname:
+          - dateval: ''
+          - dateval: ''
+        coord: ''
+        placeref: ''
+        citationref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          - dateval: ''
+          - dateval: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        coord: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          - dateval: ''
+          - datespan: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        coord: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          - dateval: ''
+          - dateval: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          daterange: ''
+        coord: ''
+        placeref: ''
+      - pname:
+          - dateval: ''
+          - datespan: ''
+        placeref: ''
+      - pname: ''
+        coord: ''
+        placeref: ''
+        noteref: ''
+        citationref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        placeref: ''
+      - pname:
+          dateval: ''
+        coord: ''
+        placeref: ''
+  objects:
+    object:
+      - file: ''
+        citationref: ''
+      - file: ''
+        citationref: ''
+      - file: ''
+      - file: ''
+      - file: ''
+      - file: ''
+      - file: ''
+      - file: ''
+      - file: ''
+      - file: ''
+      - file: ''
+      - file: ''
+      - file: ''
+      - file: ''
+      - file: ''
+  repositories:
+    repository:
+      - rname: Indiana University
+        type: Library
+      - rname: Indiana Archives and Records Administration
+        type: Archive
+      - rname: Michigan Department of Community Health
+        type: Library
+      - rname: U.S. Department of Veterans Affairs
+        type: Library
+      - rname: Ancestry.com
+        type: Library
+      - rname: National Archives and Records Administration
+        type: Archive
+      - rname: Norwood Historical Society
+        type: Library
+      - rname: Access World News
+        type: Collection
+      - rname: Personal outreach
+        type: Collection
+  notes:
+    note:
+      - text: Personal information from Joel and Roberta Bromley
+      - text: Foreman until Hoosier Iron Works closed
+      - text: >-
+          Married by a Methodist Episcopal clergyman, Jesse L. Corley, likely of
+          First Methodist Episcopal Church of Norwood. The Methodist Episcopal
+          Church was the largest Methodist denomination from 1784 to 1939, when
+          it merged to found the Methodist Church. In the 1960s it merged to
+          form the United Methodist Church.
+      - text: Opened in 1905, closed in 2009
+      - text: >-
+          Pulmonary edema due to emphysema. Living in the Oconto, Wisconsin, but
+          taken to St. Mary's Hospital in Rochester, Minnesota.
