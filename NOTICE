@@ -1,9 +1,11 @@
-NOTICE:
+This format contains data fields derived from the [gramps project](https://gramps-project.org).
 
-This work comprises, is based on, or is derived from the FAMILYSEARCH GEDCOM™
-Specification, © 1984-2025 Intellectual Reserve, Inc. All rights reserved.
+Copyright (C) 2001-2006 Donald N. Allingham, 2007-2025 The Gramps Developers
 
-"FAMILYSEARCH GEDCOM™" and "FAMILYSEARCH®" are trademarks of Intellectual
-Reserve, Inc. and may not be used except as allowed by the Apache 2.0 license
-that governs this work or as expressly authorized in writing and in advance by
-Intellectual Reserve, Inc.
+The original work is licensed under the GNU General Public License, Version 2. A copy of the GPLv2 license is included in this project's repository as LICENSES/GPL-2.0.txt.
+
+This format contains text from the [gramps project manual](https://gramps-project.org/wiki/index.php/Main_page).
+
+Copyright (C) 2001 Donald N. Allingham, 2003-2007 Alex Roitman, 2007-2021 Contributors Gramps wiki manual
+
+The original work is licensed under the GNU General Public License, Version 2. A copy of the GPLv2 license is included in this project's repository as LICENSES/GPL-2.0.txt.
