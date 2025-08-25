@@ -12,20 +12,61 @@ researcher:
 
 people:
     person: 
-        - gender:
+        - gender: M|F|U
           name:
             first:
+            call:
             surname:
+            suffix:
+            title:
             nick:
+            familynick:
+            group:
+            daterange:
+            datespan:
+            dateval:
+            datestr:
+            noteref:
+            citationref:
           address:
             dateval:
+            daterange:
+            datespan:
+            datestr:
             street:
+            locality:
             city:
+            county:
             state:
+            country:
             postal:
+            phone:
+            noteref:
+            citationref:
+          eventref:
+          objref:
+          attribute:
+          url:
+          childof:
+          parentin:
+          personref:
+          noteref:
+          citationref:
+          tagref:        
 
 events:
     event:
+        type:
+        daterange:
+        datespan:
+        dateval:
+        datestr:
+        place:
+        description:
+        attribute:
+        noteref:
+        citationref:
+        tagref:
 
 citations:
     citation:
@@ -35,6 +76,11 @@ citations:
           objref:
           dateval:
           page:
+          daterange:
+          datespan:
+          datestr:
+          srcattribute:
+          tagref:
 
 sources:
     source:
@@ -42,6 +88,12 @@ sources:
         sauthor:
         reporef:
         spubinfo:
+        sabbrev:
+        noteref:
+        objref:
+        srcattribute:
+        reporef:
+        tagref:
 
 places:
     placeobj:
@@ -50,13 +102,25 @@ places:
           coord:
           citationref:
           noteref:
+          code:
+          location:
+          url:
+          citationref:
+          tagref:
+          objref:
 
 repositories:
     repository:
         - rname:
           type:
+          address:
+          url:
+          noteref:
+          tagref:
 
 notes:
     note:
         - text: text
+          style:
+          tagref:
 ---
