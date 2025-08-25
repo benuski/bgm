@@ -1,0 +1,11 @@
+---
+resname: {type: string}
+resaddr: {type: string, optional: true}
+reslocality: {type: string, optional: true}
+rescity: {type: string, optional: true}
+resstate: {type: string, optional: true}
+rescountry: {type: string, optional: true}
+respostal: {type: string, optional: true}
+resphone: {type: string, optional: true}
+resemail: {type: string, optional: true}
+---
