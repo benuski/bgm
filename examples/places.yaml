@@ -1,0 +1,21 @@
+---
+placeobj:
+    type: {type: string}
+    ptitle: {type: string, optional: true}
+    code: {type: string, optional: true}
+    pname: {see: placename-content, multiple: true}
+    coord:
+        long: {type: string}
+        lat: {type: string}
+    location:
+        street: {type: string, optional: true}
+        locality: {type: string, optional: true}
+        city: {type: string, optional: true}
+        parish: {type: string, optional: true}
+        county: {type: string, optional: true}
+        state: {type: string, optional: true}
+        country: {type: string, optional: true}
+        postal: {type: string, optional: true}
+        phone: {type: string, optional: true}
+    url: {see: url-content, multiple: true}
+---
