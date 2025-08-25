@@ -1,3 +1,5 @@
+## Bromley Genealogical Markdown
+
 Right now, the beginning genealogist doesn't have a ton of options when they want to leave online family tree tools. There is a gap between the easy to use but limiting platforms and the extremely robust but technical open source and professional tools.
 
 My personal need was for a text-based, card file style genealogical system, something that is small, portable, and both machine- and human-readable. Genealogical research can last decades or more, so I wanted future generations to be able to completely and easily read the information without the need for any additional tools.
