@@ -1,6 +1,3 @@
-# YAML Documentation for GRAMPS XML (RELAX NG) Schema
-# Generated from rng.xml
-
 database:
   description: Root element for the GRAMPS genealogy database.
   elements:
@@ -331,13 +328,13 @@ name-content:
     sort: {type: string, optional: true}
     display: {type: string, optional: true}
   elements:
-    first: {type: string, optional: true}
-    call: {type: string, optional: true}
-    surname: {see: surname-content, multiple: true}
-    suffix: {type: string, optional: true}
-    title: {type: string, optional: true}
-    nick: {type: string, optional: true}
-    familynick: {type: string, optional: true}
+    first: {type: string, optional: true} the person's given name(s)
+    call: {type: string, optional: true} officially this is the part of the given name that is the normally used name. Eg, a person can have 3 given names as in Jean Baptiste Jules, where in reality only Baptiste is used. In Germany and some other places, it was customary to underline the callname among the different given names, see also here. Some people will try to use this field also for nickname, or changes to the Given name (like Cristy for Cristina), but this is not the intended use. A call name is a proper legal name. For nick names, or short name variants, you should create an alternative name with a different type.
+    surname: {see: surname-content, multiple: true}  the part of a person's name indicating the family to which the person belongs.
+    suffix: {type: string, optional: true} an optional suffix to the name, such as Jr. or III
+    title: {type: string, optional: true} which is a title (typically in abbreviated form) used to refer to the person such as Dr. or Rev., selector,
+    nick: {type: string, optional: true} is a descriptive name given in place of or in addition to the official given name. If a Nick name is a full name construct, use a specific name type Also known as instead of the Nick field.
+    familynick: {type: string, optional: true} This is a unofficial name given to a family splinter group to distinguish them from people with the same family surname. Often referred to as Farm name and typically references a location where the splinter group resides or originates. (aka sept, sect, camp)
     group: {type: string, optional: true}
     date: {see: date-content, optional: true}
     noteref: {see: noteref-content, multiple: true}
@@ -347,9 +344,9 @@ surname-content:
   description: Surname structure.
   type: string
   attributes:
-    prefix: {type: string, optional: true}
+    prefix: {type: string, optional: true} an optional prefix for the family name that is not used in sorting, such as de or van
     prim: {type: [1,0], optional: true}
-    derivation: {type: string, optional: true}
+    derivation: {type: string, optional: true} the origin type of the name identifies the cultural naming system that specifies how a particular surname was elected. This is meta information about the surname which can be important in genealogical research.
     connector: {type: string, optional: true}
 
 address-content:
