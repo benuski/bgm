@@ -1,0 +1,8 @@
+---
+event:
+	type: {type: string} Basically is self definable, I just need to define the list of possible options
+    date: {see: date-content, optional: true} lots of different kinds of dates. dateval, datestr, dateval, daterange, datespan
+    place: {attributes: {hlink: IDREF}, optional: true}
+    description: {type: string, optional: true}            
+    citationref: {see: citationref-content, multiple: true}
+---
