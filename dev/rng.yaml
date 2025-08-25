@@ -1,0 +1,506 @@
+# YAML Documentation for GRAMPS XML (RELAX NG) Schema
+# Generated from rng.xml
+
+database:
+  description: Root element for the GRAMPS genealogy database.
+  elements:
+    header:
+      description: Metadata about the database and researcher.
+      elements:
+        created:
+          attributes:
+            date: {type: date, description: Creation date}
+            version: {type: string, description: GRAMPS version}
+        researcher:
+          description: Information about the researcher.
+          elements:
+            resname: {type: string}
+            resaddr: {type: string, optional: true}
+            reslocality: {type: string, optional: true}
+            rescity: {type: string, optional: true}
+            resstate: {type: string, optional: true}
+            rescountry: {type: string, optional: true}
+            respostal: {type: string, optional: true}
+            resphone: {type: string, optional: true}
+            resemail: {type: string, optional: true}
+        mediapath:
+          type: string
+          optional: true
+
+    name-formats:
+      description: Name format definitions.
+      optional: true
+      elements:
+        format:
+          attributes:
+            number: {type: string}
+            name: {type: string}
+            fmt_str: {type: string}
+            active: {type: [0,1], optional: true}
+
+    tags:
+      description: Tag definitions.
+      optional: true
+      elements:
+        tag:
+          attributes:
+            handle: {type: ID}
+            change: {type: string}
+            name: {type: string}
+            color: {type: string}
+            priority: {type: integer}
+
+    events:
+      description: Event records.
+      optional: true
+      elements:
+        event:
+          attributes:
+            handle: {type: ID}
+            change: {type: string}
+            id: {type: string, optional: true}
+            priv: {type: [0,1], optional: true}
+          elements:
+            type: {type: string}
+            date: {see: date-content, optional: true}
+            place: {attributes: {hlink: IDREF}, optional: true}
+            description: {type: string, optional: true}
+            attribute: {see: attribute-content, multiple: true}
+            noteref: {see: noteref-content, multiple: true}
+            citationref: {see: citationref-content, multiple: true}
+            objref: {see: objref-content, multiple: true}
+            tagref: {see: tagref-content, multiple: true}
+
+    people:
+      description: People records.
+      optional: true
+      attributes:
+        default: {type: string, optional: true}
+        home: {type: IDREF, optional: true}
+      elements:
+        person:
+          attributes:
+            handle: {type: ID}
+            change: {type: string}
+            id: {type: string, optional: true}
+            priv: {type: [0,1], optional: true}
+          elements:
+            gender: {type: [M,F,U]}
+            name: {see: name-content, multiple: true}
+            eventref: {see: eventref-content, multiple: true}
+            lds_ord: {see: lds-content, multiple: true}
+            objref: {see: objref-content, multiple: true}
+            address: {see: address-content, multiple: true}
+            attribute: {see: attribute-content, multiple: true}
+            url: {see: url-content, multiple: true}
+            childof: {attributes: {hlink: IDREF}, multiple: true}
+            parentin: {attributes: {hlink: IDREF}, multiple: true}
+            personref: {see: personref-content, multiple: true}
+            noteref: {see: noteref-content, multiple: true}
+            citationref: {see: citationref-content, multiple: true}
+            tagref: {see: tagref-content, multiple: true}
+
+    families:
+      description: Family records.
+      optional: true
+      elements:
+        family:
+          attributes:
+            handle: {type: ID}
+            change: {type: string}
+            id: {type: string, optional: true}
+            priv: {type: [0,1], optional: true}
+          elements:
+            rel: {attributes: {type: string}, optional: true}
+            father: {attributes: {hlink: IDREF}, optional: true}
+            mother: {attributes: {hlink: IDREF}, optional: true}
+            eventref: {see: eventref-content, multiple: true}
+            lds_ord: {see: lds-content, multiple: true}
+            objref: {see: objref-content, multiple: true}
+            childref:
+              attributes:
+                hlink: {type: IDREF}
+                priv: {type: [0,1], optional: true}
+                mrel: {type: string, optional: true}
+                frel: {type: string, optional: true}
+              elements:
+                citationref: {see: citationref-content, multiple: true}
+                noteref: {see: noteref-content, multiple: true}
+              multiple: true
+            attribute: {see: attribute-content, multiple: true}
+            noteref: {see: noteref-content, multiple: true}
+            date: {see: date-content, optional: true}
+            citationref: {see: citationref-content, multiple: true}
+            tagref: {see: tagref-content, multiple: true}
+
+    citations:
+      description: Citation records.
+      optional: true
+      elements:
+        citation:
+          attributes:
+            handle: {type: ID}
+            change: {type: string}
+            id: {type: string, optional: true}
+            priv: {type: [0,1], optional: true}
+          elements:
+            date: {see: date-content, optional: true}
+            page: {type: string, optional: true}
+            confidence: {type: string}
+            noteref: {see: noteref-content, multiple: true}
+            objref: {see: objref-content, multiple: true}
+            srcattribute: {see: srcattribute-content, multiple: true}
+            sourceref: {see: sourceref-content}
+            tagref: {see: tagref-content, multiple: true}
+
+    sources:
+      description: Source records.
+      optional: true
+      elements:
+        source:
+          attributes:
+            handle: {type: ID}
+            change: {type: string}
+            id: {type: string, optional: true}
+            priv: {type: [0,1], optional: true}
+          elements:
+            stitle: {type: string, optional: true}
+            sauthor: {type: string, optional: true}
+            spubinfo: {type: string, optional: true}
+            sabbrev: {type: string, optional: true}
+            noteref: {see: noteref-content, multiple: true}
+            objref: {see: objref-content, multiple: true}
+            srcattribute: {see: srcattribute-content, multiple: true}
+            reporef: {see: reporef-content, multiple: true}
+            tagref: {see: tagref-content, multiple: true}
+
+    places:
+      description: Place records.
+      optional: true
+      elements:
+        placeobj:
+          attributes:
+            handle: {type: ID}
+            change: {type: string}
+            id: {type: string, optional: true}
+            priv: {type: [0,1], optional: true}
+            type: {type: string}
+          elements:
+            ptitle: {type: string, optional: true}
+            code: {type: string, optional: true}
+            pname: {see: placename-content, multiple: true}
+            coord:
+              attributes:
+                long: {type: string}
+                lat: {type: string}
+              optional: true
+            placeref: {see: placeref-content, multiple: true}
+            location:
+              attributes:
+                street: {type: string, optional: true}
+                locality: {type: string, optional: true}
+                city: {type: string, optional: true}
+                parish: {type: string, optional: true}
+                county: {type: string, optional: true}
+                state: {type: string, optional: true}
+                country: {type: string, optional: true}
+                postal: {type: string, optional: true}
+                phone: {type: string, optional: true}
+              multiple: true
+            objref: {see: objref-content, multiple: true}
+            url: {see: url-content, multiple: true}
+            noteref: {see: noteref-content, multiple: true}
+            citationref: {see: citationref-content, multiple: true}
+            tagref: {see: tagref-content, multiple: true}
+
+    objects:
+      description: Media object records.
+      optional: true
+      elements:
+        object:
+          attributes:
+            handle: {type: ID}
+            change: {type: string}
+            id: {type: string, optional: true}
+            priv: {type: [0,1], optional: true}
+          elements:
+            file:
+              attributes:
+                src: {type: string}
+                mime: {type: string}
+                checksum: {type: string, optional: true}
+                description: {type: string, optional: true}
+            attribute: {see: attribute-content, multiple: true}
+            noteref: {see: noteref-content, multiple: true}
+            date: {see: date-content, optional: true}
+            citationref: {see: citationref-content, multiple: true}
+            tagref: {see: tagref-content, multiple: true}
+
+    repositories:
+      description: Repository records.
+      optional: true
+      elements:
+        repository:
+          attributes:
+            handle: {type: ID}
+            change: {type: string}
+            id: {type: string, optional: true}
+            priv: {type: [0,1], optional: true}
+          elements:
+            rname: {type: string, optional: true}
+            type: {type: string, optional: true}
+            address: {see: address-content, multiple: true}
+            url: {see: url-content, multiple: true}
+            noteref: {see: noteref-content, multiple: true}
+            tagref: {see: tagref-content, multiple: true}
+
+    notes:
+      description: Note records.
+      optional: true
+      elements:
+        note:
+          attributes:
+            handle: {type: ID}
+            change: {type: string}
+            id: {type: string, optional: true}
+            priv: {type: [0,1], optional: true}
+            format: {type: [0,1], optional: true}
+            type: {type: string}
+          elements:
+            styledtext: {see: styledtext}
+            tagref: {see: tagref-content, multiple: true}
+
+    bookmarks:
+      description: Bookmarks.
+      optional: true
+      elements:
+        bookmark:
+          attributes:
+            target: {type: [person, family, event, source, citation, place, media, repository, note]}
+            hlink: {type: IDREF}
+
+    namemaps:
+      description: Name maps.
+      optional: true
+      elements:
+        map:
+          attributes:
+            type: {type: group_as}
+            key: {type: string}
+            value: {type: string}
+
+# --- Definitions for referenced content ---
+
+date-content:
+  description: Date information (range, span, value, or string).
+  choice:
+    - daterange:
+        attributes:
+          start: {type: string}
+          stop: {type: string}
+          quality: {type: [estimated, calculated], optional: true}
+          cformat: {type: string, optional: true}
+          dualdated: {type: [0,1], optional: true}
+          newyear: {type: string, optional: true}
+    - datespan:
+        attributes:
+          start: {type: string}
+          stop: {type: string}
+          quality: {type: [estimated, calculated], optional: true}
+          cformat: {type: string, optional: true}
+          dualdated: {type: [0,1], optional: true}
+          newyear: {type: string, optional: true}
+    - dateval:
+        attributes:
+          val: {type: string}
+          cformat: {type: string, optional: true}
+          type: {type: [before, after, about], optional: true}
+          quality: {type: [estimated, calculated], optional: true}
+          dualdated: {type: [0,1], optional: true}
+          newyear: {type: string, optional: true}
+    - datestr:
+        attributes:
+          val: {type: string}
+
+name-content:
+  description: Person name structure.
+  attributes:
+    alt: {type: [0,1], optional: true}
+    priv: {type: [0,1], optional: true}
+    type: {type: string, optional: true}
+    sort: {type: string, optional: true}
+    display: {type: string, optional: true}
+  elements:
+    first: {type: string, optional: true}
+    call: {type: string, optional: true}
+    surname: {see: surname-content, multiple: true}
+    suffix: {type: string, optional: true}
+    title: {type: string, optional: true}
+    nick: {type: string, optional: true}
+    familynick: {type: string, optional: true}
+    group: {type: string, optional: true}
+    date: {see: date-content, optional: true}
+    noteref: {see: noteref-content, multiple: true}
+    citationref: {see: citationref-content, multiple: true}
+
+surname-content:
+  description: Surname structure.
+  type: string
+  attributes:
+    prefix: {type: string, optional: true}
+    prim: {type: [1,0], optional: true}
+    derivation: {type: string, optional: true}
+    connector: {type: string, optional: true}
+
+address-content:
+  description: Address structure.
+  attributes:
+    priv: {type: [0,1], optional: true}
+  elements:
+    date: {see: date-content, optional: true}
+    street: {type: string, optional: true}
+    locality: {type: string, optional: true}
+    city: {type: string, optional: true}
+    county: {type: string, optional: true}
+    state: {type: string, optional: true}
+    country: {type: string, optional: true}
+    postal: {type: string, optional: true}
+    phone: {type: string, optional: true}
+    noteref: {see: noteref-content, multiple: true}
+    citationref: {see: citationref-content, multiple: true}
+
+attribute-content:
+  description: Attribute structure.
+  attributes:
+    priv: {type: [0,1], optional: true}
+    type: {type: string}
+    value: {type: string}
+  elements:
+    citationref: {see: citationref-content, multiple: true}
+    noteref: {see: noteref-content, multiple: true}
+
+noteref-content:
+  description: Reference to a note.
+  attributes:
+    hlink: {type: IDREF}
+
+citationref-content:
+  description: Reference to a citation.
+  attributes:
+    hlink: {type: IDREF}
+
+objref-content:
+  description: Reference to a media object.
+  attributes:
+    hlink: {type: IDREF}
+    priv: {type: [0,1], optional: true}
+  elements:
+    region: {see: region-content, optional: true}
+    attribute: {see: attribute-content, multiple: true}
+    citationref: {see: citationref-content, multiple: true}
+    noteref: {see: noteref-content, multiple: true}
+
+region-content:
+  description: Region within a media object.
+  attributes:
+    corner1_x: {type: integer}
+    corner1_y: {type: integer}
+    corner2_x: {type: integer}
+    corner2_y: {type: integer}
+  type: string
+
+url-content:
+  description: URL structure.
+  attributes:
+    priv: {type: [0,1], optional: true}
+    type: {type: string, optional: true}
+    href: {type: string}
+    description: {type: string, optional: true}
+
+lds-content:
+  description: LDS ordinance structure.
+  attributes:
+    priv: {type: [0,1], optional: true}
+    type: {type: string}
+  elements:
+    date: {see: date-content, optional: true}
+    temple: {attributes: {val: string}, optional: true}
+    place: {attributes: {hlink: IDREF}, optional: true}
+    status: {attributes: {val: string}, optional: true}
+    sealed_to: {attributes: {hlink: IDREF}, optional: true}
+    noteref: {see: noteref-content, multiple: true}
+    citationref: {see: citationref-content, multiple: true}
+
+placename-content:
+  description: Place name structure.
+  attributes:
+    value: {type: string}
+    lang: {type: string, optional: true}
+  elements:
+    date: {see: date-content, optional: true}
+
+placeref-content:
+  description: Reference to a place.
+  attributes:
+    hlink: {type: IDREF}
+  elements:
+    date: {see: date-content, optional: true}
+
+tagref-content:
+  description: Reference to a tag.
+  attributes:
+    hlink: {type: IDREF}
+
+srcattribute-content:
+  description: Source attribute structure.
+  attributes:
+    priv: {type: [0,1], optional: true}
+    type: {type: string}
+    value: {type: string}
+
+reporef-content:
+  description: Reference to a repository.
+  attributes:
+    hlink: {type: IDREF}
+    priv: {type: [0,1], optional: true}
+    callno: {type: string, optional: true}
+    medium: {type: string, optional: true}
+  elements:
+    noteref: {see: noteref-content, multiple: true}
+
+personref-content:
+  description: Reference to a person.
+  attributes:
+    hlink: {type: IDREF}
+    priv: {type: [0,1], optional: true}
+    rel: {type: string}
+  elements:
+    citationref: {see: citationref-content, multiple: true, optional: true}
+    noteref: {see: noteref-content, multiple: true, optional: true}
+
+eventref-content:
+  description: Reference to an event.
+  attributes:
+    hlink: {type: IDREF}
+    priv: {type: [0,1], optional: true}
+    role: {type: string, optional: true}
+  elements:
+    attribute: {see: attribute-content, multiple: true}
+    noteref: {see: noteref-content, multiple: true}
+    citationref: {see: citationref-content, multiple: true, optional: true}
+
+styledtext:
+  description: Styled text for notes.
+  elements:
+    text: {type: string}
+    style:
+      attributes:
+        name: {type: [bold, italic, underline, fontface, fontsize, fontcolor, highlight, superscript, link]}
+        value: {type: string, optional: true}
+      elements:
+        range:
+          attributes:
+            start: {type: int}
+            end: {type: int}
+          multiple: true
+      multiple: true
