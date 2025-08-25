@@ -1,0 +1,13 @@
+---
+source:
+	stitle: {type: string, optional: true}
+	sauthor: {type: string, optional: true}
+	spubinfo: {type: string, optional: true}
+	sabbrev: {type: string, optional: true}
+	rname: {type: string, optional: true} repository name
+	type: {type: string, optional: true} repository type
+    address: {see: address-content, multiple: true} repository address
+	url: {see: url-content, multiple: true} repository url
+---
+
+combining sources and repository information
