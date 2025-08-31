@@ -78,6 +78,7 @@ sources:
     sauthor:
     spubinfo:
     sabbrev:
+    repository:
 
 places:
   place:
@@ -88,12 +89,5 @@ places:
       long:
     code:
     location:
-    url:
-
-repositories:
-  repository:
-    rname:
-    type:
-    address:
     url:
 ---
