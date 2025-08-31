@@ -1,5 +1,6 @@
 ---
-researcher:
+researchers:
+  researcher:
     resname:
     resaddr:
     reslocality:
@@ -11,116 +12,88 @@ researcher:
     resemail:
 
 people:
-    person: 
-        - gender: M|F|U
-          name:
-            first:
-            call:
-            surname:
-            suffix:
-            title:
-            nick:
-            familynick:
-            group:
-            daterange:
-            datespan:
-            dateval:
-            datestr:
-            noteref:
-            citationref:
-          address:
-            dateval:
-            daterange:
-            datespan:
-            datestr:
-            street:
-            locality:
-            city:
-            county:
-            state:
-            country:
-            postal:
-            phone:
-            noteref:
-            citationref:
-          eventref:
-          objref:
-          attribute:
-          url:
-          childof:
-          parentin:
-          personref:
-          noteref:
-          citationref:
-          tagref:        
+  person: 
+    gender: M|F|U
+    name:
+      first:
+      call:
+    surname:
+      suffix:
+      title:
+    nick:
+    familynick:
+    group:
+    daterange:
+    datespan:
+    dateval:
+    datestr:
+    address:
+      dateval:
+      daterange:
+      datespan:
+      datestr:
+      street:
+      locality:
+      city:
+      county:
+      state:
+      country:
+      postal:
+      phone:
+    attribute:
+    url:      
+
+relationships:
+  relationship:
+    type:
+    daterange:
+    datespan:
+    datestr:
+    dateval:
+    description:
 
 events:
-    event:
-        type:
-        daterange:
-        datespan:
-        dateval:
-        datestr:
-        place:
-        description:
-        attribute:
-        noteref:
-        citationref:
-        tagref:
+  event:
+    type:
+    daterange:
+    datespan:
+    dateval:
+    datestr:
+    place:
+    description:
+    attribute:
 
 citations:
-    citation:
-        - confidence:
-          noteref:
-          sourceref:
-          objref:
-          dateval:
-          page:
-          daterange:
-          datespan:
-          datestr:
-          srcattribute:
-          tagref:
+  citation:
+    confidence:
+    dateval:
+    page:
+    daterange:
+    datespan:
+    datestr:
 
 sources:
-    source:
-        stitle:
-        sauthor:
-        reporef:
-        spubinfo:
-        sabbrev:
-        noteref:
-        objref:
-        srcattribute:
-        reporef:
-        tagref:
+  source:
+    stitle:
+    sauthor:
+    spubinfo:
+    sabbrev:
 
 places:
-    placeobj:
-        - pname:
-          placeref:
-          coord:
-          citationref:
-          noteref:
-          code:
-          location:
-          url:
-          citationref:
-          tagref:
-          objref:
+  place:
+    pname:
+    placeref:
+    coord:
+      lat:
+      long:
+    code:
+    location:
+    url:
 
 repositories:
-    repository:
-        - rname:
-          type:
-          address:
-          url:
-          noteref:
-          tagref:
-
-notes:
-    note:
-        - text: text
-          style:
-          tagref:
+  repository:
+    rname:
+    type:
+    address:
+    url:
 ---
